@@ -56,14 +56,18 @@
               <Component id="_07_jP" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Component id="_08_jP" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Component id="jTabbedPane1" min="-2" pref="465" max="-2" attributes="0"/>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
           <Component id="_07_jP" alignment="0" min="-2" max="-2" attributes="0"/>
           <Component id="TB_jP" alignment="0" min="-2" max="-2" attributes="0"/>
           <Component id="Baru_jP" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -78,6 +82,26 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
               <Component id="jTabbedPane1" min="-2" pref="350" max="-2" attributes="0"/>
+=======
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="_07_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="TB_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="Baru_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="Balik_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_01_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_02_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_03_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_04_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_05_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="_06_jP" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="_08_jP" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
           </Group>
       </Group>
     </DimensionLayout>
@@ -117,11 +141,19 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="TB_jP_01" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                   <Component id="TB_jP_02" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                   <Component id="TB_jP_03" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="TB_jP_01" min="-2" pref="237" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Component id="TB_jP_02" min="-2" pref="186" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Component id="TB_jP_03" min="-2" pref="134" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                   <Component id="TB_jP_Tuts" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
@@ -136,6 +168,7 @@
               <Color blue="fd" green="d6" red="a8" type="rgb"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
               <Dimension value="[200, 238]"/>
             </Property>
             <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -143,6 +176,15 @@
             </Property>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[200, 238]"/>
+=======
+              <Dimension value="[200, 248]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 248]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 248]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
             </Property>
           </Properties>
 
@@ -177,6 +219,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="TB_jLb_Penjualan_01" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -197,6 +240,28 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="TB_07_jB_BwtUsrBr_01" min="-2" max="-2" attributes="0"/>
                           <Component id="TB_08_jB_EdtDftUsr_01" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="TB_jLb_Penjualan_01" min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TB_01_jB_BwtNtJl_01" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="TB_02_jB_DftNtJl_01" min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TB_03_jB_BwtNtTkr_01" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="TB_04_jB_DftNtTkr_01" min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TB_05_jB_BwtNtRtrUsr_01" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="TB_06_jB_DftNtRtrUsr_01" min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TB_07_jB_BwtUsrBr_01" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="TB_08_jB_EdtDftUsr_01" min="-2" pref="47" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                       </Group>
                       <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                   </Group>
@@ -215,6 +280,7 @@
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="PENJUALAN"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[200, 20]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -222,6 +288,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[200, 20]"/>
+=======
+                  <Dimension value="[200, 26]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[200, 26]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[200, 26]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
             </Component>
@@ -235,6 +310,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;PENJUALAN&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -242,6 +318,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -258,6 +343,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;PENUKARAN&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -265,6 +351,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -281,6 +376,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;RETUR USER&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -288,6 +384,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -304,6 +409,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT&lt;br/&gt;PELANGGAN BARU&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -311,6 +417,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -327,6 +442,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;PENJUALAN&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -334,6 +450,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -350,6 +475,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;PENUKARAN&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -357,6 +483,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -377,6 +512,7 @@
                   <Insets value="[2, 0, 2, 0]"/>
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -384,6 +520,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -400,6 +545,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR&lt;br/&gt;PELANGGAN&lt;/p&gt;&lt;/html&gt;"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[92, 47]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -407,6 +553,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
+=======
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[92, 48]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
               <Events>
@@ -421,6 +576,7 @@
               <Color blue="ff" green="bf" red="ac" type="rgb"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
               <Dimension value="[200, 186]"/>
             </Property>
             <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -428,6 +584,15 @@
             </Property>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[200, 186]"/>
+=======
+              <Dimension value="[200, 195]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 195]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 195]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
             </Property>
           </Properties>
 
@@ -487,7 +652,11 @@
             <Component class="javax.swing.JLabel" name="TB_jLb_Pembelian_02">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="ff" green="bf" red="ac" type="rgb"/>
+=======
+                  <Color blue="ff" green="fe" red="d1" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="22" style="1"/>
@@ -637,6 +806,7 @@
               <Color blue="f3" green="99" red="9f" type="rgb"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
               <Dimension value="[200, 134]"/>
             </Property>
             <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -644,6 +814,15 @@
             </Property>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[200, 134]"/>
+=======
+              <Dimension value="[200, 142]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 142]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 142]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
             </Property>
           </Properties>
 
@@ -1449,7 +1628,11 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="_01_jTF_NmPlngn_02x02" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="_01_jCmBx_DftNmPlgn_02x02" alignment="0" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="_01_jScP_Alamat_02x02" alignment="0" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="_01_jScP_Alamat_02x02" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -1457,10 +1640,17 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="_01_jTF_NmPlngn_02x02" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="_01_jCmBx_DftNmPlgn_02x02" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                           <Component id="_01_jScP_Alamat_02x02" max="32767" attributes="0"/>
+=======
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Component id="_01_jCmBx_DftNmPlgn_02x02" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="_01_jScP_Alamat_02x02" pref="47" max="32767" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1524,6 +1714,7 @@
                   <Properties>
                     <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
                     <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+<<<<<<< HEAD
                     <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[290, 49]"/>
                     </Property>
@@ -1533,6 +1724,8 @@
                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[290, 49]"/>
                     </Property>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                   </Properties>
                   <AuxValues>
                     <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -1636,7 +1829,11 @@
                   <Properties>
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="2"/>
@@ -1662,7 +1859,11 @@
                 <Component class="javax.swing.JTextField" name="_01_jTF_IsiImei_02x03">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="0"/>
@@ -1691,7 +1892,11 @@
                   <Properties>
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="2"/>
@@ -1717,7 +1922,11 @@
                 <Component class="javax.swing.JTextField" name="_01_jTF_IsiNmBrg_02x03">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="0"/>
@@ -1746,7 +1955,11 @@
                   <Properties>
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="2"/>
@@ -1772,7 +1985,11 @@
                 <Component class="javax.swing.JTextField" name="_01_jTF_isiQty_02x03">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="0"/>
@@ -1801,7 +2018,11 @@
                   <Properties>
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="2"/>
@@ -1827,7 +2048,11 @@
                 <Component class="javax.swing.JTextField" name="_01_jTF_IsiHrg_02x03">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="11" style="0"/>
@@ -1898,10 +2123,14 @@
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           <Component id="_01_jScP_Data_02x04" min="-2" pref="227" max="-2" attributes="0"/>
                       </Group>
+=======
+                      <Component id="_01_jScP_Data_02x04" alignment="0" pref="402" max="32767" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -1934,42 +2163,66 @@
                         </Property>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="6" rowCount="5">
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;h style=&quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;NO.&lt;/b&gt;&lt;/h&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;h style=&quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;NO.&lt;/b&gt;&lt;/h&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="01"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;p style=&quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;NAMA BARANG&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;p style=&quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;NAMA BARANG&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="HAP SAMSAM GALSAMSAM GALSAMSAM"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;IMEI&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;IMEI&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="3123456789112345"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;HARGA&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;HARGA&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="10.000.000"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;UNIT&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;UNIT&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="100"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                               <Data value="null"/>
                             </Column>
+<<<<<<< HEAD
                             <Column editable="false" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;TOTAL&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+=======
+                            <Column editable="true" title="&lt;html&gt;&lt;p style= &quot;font-family:arial;font-size:11pt&quot;&gt;&lt;b&gt;TOTAL&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;" type="java.lang.Object">
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               <Data value="1.000.000.000"/>
                               <Data value="null"/>
                               <Data value="null"/>
@@ -2591,7 +2844,11 @@
                 <Container class="javax.swing.JPanel" name="_02_jP_CrImei_02x01">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="33" green="ff" red="33" type="rgb"/>
+=======
+                      <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[150, 20]"/>
@@ -2599,7 +2856,10 @@
                     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[150, 20]"/>
                     </Property>
+<<<<<<< HEAD
                     <Property name="opaque" type="boolean" value="false"/>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[150, 20]"/>
                     </Property>
@@ -2627,7 +2887,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_CrImei_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="11" style="2"/>
@@ -2723,7 +2987,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_CrTgl_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="11" style="2"/>
@@ -2863,7 +3131,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_CrInv_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="11" style="2"/>
@@ -2956,7 +3228,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_CrNmPlg_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="11" style="2"/>
@@ -3052,7 +3328,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_CrNmBrg_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="11" style="2"/>
@@ -3146,7 +3426,11 @@
                     <Component class="javax.swing.JCheckBox" name="_02_jCBx_ShwAll_02x01">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                           <Color blue="bd" green="9e" red="77" type="rgb"/>
+=======
+                          <Color blue="a9" green="8f" red="71" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Arial" size="13" style="3"/>
@@ -3278,7 +3562,11 @@
                       <Font name="Arial" size="11" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
+<<<<<<< HEAD
                     <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= &quot;text-align: center&quot;;&gt;PERIODE PENCARIAN&lt;br/&gt;&lt;b style=&quot;font-size=18&quot;;&gt;20-03-2014 S/D 22-05-2014&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;"/>
+=======
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= &quot;text-align: center&quot;;&gt;PERIODE PENCARIAN&lt;br/&gt;&lt;b&gt;20-03-2014 S/D 22-05-2014&lt;/b&gt;&lt;/p&gt;&lt;/html&gt;"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                         <BevelBorder/>
@@ -3659,7 +3947,11 @@
         <Container class="javax.swing.JPanel" name="_03_jP_BwtNtTkr_02">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
               <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+              <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -3722,7 +4014,11 @@
             <Container class="javax.swing.JPanel" name="_03_jP_NoNotaRtr_02x01">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[290, 92]"/>
@@ -3758,7 +4054,11 @@
                 <Container class="javax.swing.JPanel" name="_03_jP_IdNotaRtr_02x01">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                       <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                      <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                     </Property>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
@@ -3844,7 +4144,11 @@
             <Container class="javax.swing.JPanel" name="_03_jP_NmPlgn_02x02">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[290, 92]"/>
@@ -3948,7 +4252,11 @@
             <Container class="javax.swing.JPanel" name="_03_jP_Rtr_Inv_02x03">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[580, 298]"/>
@@ -4197,16 +4505,24 @@
                               <Layout>
                                 <DimensionLayout dim="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="_03_jP_NtRtr_02x03x01x02" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="0" pref="4" max="32767" attributes="0"/>
                                       </Group>
+=======
+                                      <Component id="_03_jP_NtRtr_02x03x01x02" alignment="1" pref="279" max="32767" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                                   </Group>
                                 </DimensionLayout>
                                 <DimensionLayout dim="1">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+=======
+                                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                                           <Component id="_03_jP_NtRtr_02x03x01x02" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
                                       </Group>
@@ -4220,6 +4536,7 @@
                                       <Color blue="53" green="78" red="f0" type="rgb"/>
                                     </Property>
                                     <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                                       <Dimension value="[275, 35]"/>
                                     </Property>
                                     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -4227,6 +4544,15 @@
                                     </Property>
                                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                                       <Dimension value="[275, 35]"/>
+=======
+                                      <Dimension value="[274, 25]"/>
+                                    </Property>
+                                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                      <Dimension value="[274, 25]"/>
+                                    </Property>
+                                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                      <Dimension value="[274, 25]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                                     </Property>
                                   </Properties>
 
@@ -4234,8 +4560,13 @@
                                     <DimensionLayout dim="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
                                               <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                               <Component id="_03_jLb_NtRtr_02x03x01x02" max="32767" attributes="0"/>
+=======
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Component id="_03_jLb_NtRtr_02x03x01x02" min="-2" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
@@ -4265,6 +4596,7 @@
                                           </Border>
                                         </Property>
                                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                                           <Dimension value="[271, 35]"/>
                                         </Property>
                                         <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -4272,6 +4604,15 @@
                                         </Property>
                                         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                                           <Dimension value="[271, 35]"/>
+=======
+                                          <Dimension value="[279, 25]"/>
+                                        </Property>
+                                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                          <Dimension value="[279, 25]"/>
+                                        </Property>
+                                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                          <Dimension value="[279, 25]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                                         </Property>
                                       </Properties>
                                     </Component>
@@ -5290,7 +5631,11 @@
             <Container class="javax.swing.JPanel" name="_03_jP_Keterangan_02x04">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[290, 99]"/>
@@ -5363,7 +5708,11 @@
             <Container class="javax.swing.JPanel" name="_03_jP_InputXtra_02x05">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="0" green="99" red="ff" type="rgb"/>
+=======
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[220, 99]"/>
@@ -7651,7 +8000,11 @@
                           <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                             <EtchetBorder/>
                           </Border>
+<<<<<<< HEAD
                           <Font PropertyName="font" name="Arial" size="11" style="0"/>
+=======
+                          <Font PropertyName="font" name="Arial" size="11" style="2"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         </TitledBorder>
                       </Border>
                     </Property>
@@ -9430,8 +9783,13 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="_07_jP_NoPlgn_02x04" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                               <Component id="_07_jP_Penyimpanan_02x05" min="-2" max="-2" attributes="0"/>
+=======
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="_07_jP_Penyimpanan_02x05" min="-2" pref="61" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                           </Group>
                       </Group>
                   </Group>
@@ -9883,7 +10241,11 @@
                                   <Component id="_07_jTF_TlpCp_02x01x01" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="_07_jTF_IsiTlpCp_02x01x01" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
+<<<<<<< HEAD
                               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+=======
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -10008,7 +10370,11 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                           <Component id="_07_jScP_Keterangan_02x03" alignment="0" pref="570" max="32767" attributes="0"/>
+=======
+                          <Component id="_07_jScP_Keterangan_02x03" alignment="1" pref="570" max="32767" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
@@ -10126,6 +10492,7 @@
                   <Color blue="fd" green="d6" red="a8" type="rgb"/>
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+<<<<<<< HEAD
                   <Dimension value="[290, 61]"/>
                 </Property>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -10133,6 +10500,15 @@
                 </Property>
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[290, 61]"/>
+=======
+                  <Dimension value="[290, 50]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[290, 50]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[290, 50]"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 </Property>
               </Properties>
 
@@ -10393,6 +10769,7 @@
                                   <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                                           <Component id="_08_jP_CrProv_02x01" min="-2" pref="91" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                                           <Component id="_08_jP_CrKota_02x01" min="-2" pref="90" max="-2" attributes="0"/>
@@ -10405,6 +10782,20 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                                   <Component id="_08_jP_ShwAll_02x01" min="-2" pref="130" max="-2" attributes="0"/>
+=======
+                                          <Component id="_08_jP_CrProv_02x01" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Component id="_08_jP_CrKota_02x01" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="_08_jTF_IsiCrProv_02x01" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Component id="_08_jTF_IsiCrKota_02x01" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="_08_jP_ShwAll_02x01" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
@@ -10741,7 +11132,11 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="_08_jCBx_CrProv_02x01" min="-2" pref="91" max="-2" attributes="0"/>
+=======
+                              <Component id="_08_jCBx_CrProv_02x01" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -10771,9 +11166,12 @@
                         </Property>
                         <Property name="borderPainted" type="boolean" value="true"/>
                         <Property name="horizontalAlignment" type="int" value="0"/>
+<<<<<<< HEAD
                         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                           <Insets value="[2, -2, 2, -2]"/>
                         </Property>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[86, 20]"/>
                         </Property>
@@ -10832,7 +11230,11 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="_08_jCBx_CrKota_02x01" min="-2" pref="90" max="-2" attributes="0"/>
+=======
+                              <Component id="_08_jCBx_CrKota_02x01" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -10862,9 +11264,12 @@
                         </Property>
                         <Property name="borderPainted" type="boolean" value="true"/>
                         <Property name="horizontalAlignment" type="int" value="0"/>
+<<<<<<< HEAD
                         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                           <Insets value="[2, -2, 2, -2]"/>
                         </Property>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[85, 20]"/>
                         </Property>
@@ -11011,7 +11416,11 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="_08_jCBx_ShwAll_02x01" min="-2" pref="130" max="-2" attributes="0"/>
+=======
+                              <Component id="_08_jCBx_ShwAll_02x01" max="-2" attributes="0"/>
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -11170,9 +11579,12 @@
         </Container>
       </SubComponents>
     </Container>
+<<<<<<< HEAD
     <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
     </Container>
+=======
+>>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
   </SubComponents>
 </Form>
