@@ -132,6 +132,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jTabbedPane2.setPreferredSize(new java.awt.Dimension(600, 533));
 
         jPanel2.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(1200, 509));
         jPanel2.setMinimumSize(new java.awt.Dimension(1200, 509));
         jPanel2.setPreferredSize(new java.awt.Dimension(1200, 509));
@@ -206,7 +207,6 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel5.setOpaque(true);
         jLabel5.setPreferredSize(new java.awt.Dimension(279, 19));
 
-        jComboBox2.setBackground(new java.awt.Color(240, 120, 83));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "DAFTAR NOTA PELANGGAN", "INV010120100001", "INV010120100015", "INV010120100035" }));
         jComboBox2.setMaximumSize(new java.awt.Dimension(279, 24));
         jComboBox2.setMinimumSize(new java.awt.Dimension(279, 24));
@@ -305,30 +305,27 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
 
         jTextField5.setBackground(new java.awt.Color(119, 158, 189));
         jTextField5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jTextField5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
+        jTextField5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
         jTextField5.setMaximumSize(new java.awt.Dimension(471, 33));
         jTextField5.setMinimumSize(new java.awt.Dimension(471, 33));
         jTextField5.setPreferredSize(new java.awt.Dimension(471, 33));
 
-        jButton1.setBackground(new java.awt.Color(240, 120, 83));
         jButton1.setText("MASUKAN");
+        jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(84, 82));
         jButton1.setMinimumSize(new java.awt.Dimension(84, 82));
         jButton1.setPreferredSize(new java.awt.Dimension(84, 82));
 
-        jComboBox3.setBackground(new java.awt.Color(240, 120, 83));
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "DAFTAR NAMA BARANG", "LG XXX", "LOL XXX", "SAMSUNG XXX" }));
         jComboBox3.setMaximumSize(new java.awt.Dimension(216, 21));
         jComboBox3.setMinimumSize(new java.awt.Dimension(216, 21));
         jComboBox3.setPreferredSize(new java.awt.Dimension(216, 21));
 
-        jComboBox4.setBackground(new java.awt.Color(240, 120, 83));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "DAFTAR IMEI", "35111111111111", "35222222222222", "353333333333333" }));
         jComboBox4.setMaximumSize(new java.awt.Dimension(110, 21));
         jComboBox4.setMinimumSize(new java.awt.Dimension(110, 21));
         jComboBox4.setPreferredSize(new java.awt.Dimension(110, 21));
 
-        jComboBox5.setBackground(new java.awt.Color(240, 120, 83));
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jComboBox5.setMaximumSize(new java.awt.Dimension(58, 21));
         jComboBox5.setMinimumSize(new java.awt.Dimension(58, 21));
@@ -494,7 +491,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:15\";><b>RTR301220140001</b></p></html>", jPanel6);
+        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>RTR301220140001</b></p></html>", jPanel6);
 
         jPanel7.setBackground(new java.awt.Color(75, 190, 233));
 
@@ -546,6 +543,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jTextField6.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField6.setText("353456789012345");
+        jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField6.setMaximumSize(new java.awt.Dimension(110, 21));
         jTextField6.setMinimumSize(new java.awt.Dimension(110, 21));
         jTextField6.setPreferredSize(new java.awt.Dimension(110, 21));
@@ -563,6 +561,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jTextField7.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField7.setText("GALSAM GALSAMGALSAM");
+        jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField7.setMaximumSize(new java.awt.Dimension(216, 21));
         jTextField7.setMinimumSize(new java.awt.Dimension(216, 21));
         jTextField7.setPreferredSize(new java.awt.Dimension(216, 21));
@@ -580,6 +579,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jTextField8.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField8.setText("100");
+        jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField8.setMaximumSize(new java.awt.Dimension(58, 21));
         jTextField8.setMinimumSize(new java.awt.Dimension(58, 21));
         jTextField8.setPreferredSize(new java.awt.Dimension(58, 21));
@@ -597,11 +597,11 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jTextField9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField9.setText("1.000.000.000");
+        jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField9.setMaximumSize(new java.awt.Dimension(82, 21));
         jTextField9.setMinimumSize(new java.awt.Dimension(82, 21));
         jTextField9.setPreferredSize(new java.awt.Dimension(82, 21));
 
-        jButton2.setBackground(new java.awt.Color(75, 190, 233));
         jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton2.setText("MASUKAN");
         jButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
@@ -650,13 +650,9 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                     .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel14Layout.createSequentialGroup()
-                        .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                    .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jButton2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel15.setBackground(new java.awt.Color(75, 190, 233));
@@ -737,10 +733,10 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(79, Short.MAX_VALUE))
+                .addContainerGap(82, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:15\";><b>INV301220140001</b></p></html>", jPanel7);
+        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>INV301220140001</b></p></html>", jPanel7);
 
         jPanel5.setBackground(new java.awt.Color(255, 153, 0));
         jPanel5.setMaximumSize(new java.awt.Dimension(290, 92));
@@ -893,7 +889,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(2, 2, 2)
+                .addGap(0, 0, 0)
                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -956,7 +952,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addGap(0, 0, 0))
         );
 
-        jTabbedPane2.addTab("<html><p style= \"text-align:center; font-size:15\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
+        jTabbedPane2.addTab("<html><p style= \"text-align:center; font-size:13\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -965,9 +961,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(0, 0, 0)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, 0)
-                        .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, 0))
         );

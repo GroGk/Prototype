@@ -4,11 +4,8 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.imageio.ImageIO;
-<<<<<<< HEAD
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 import javax.swing.JPanel;
 
 /**
@@ -41,11 +38,7 @@ public class StokProgram extends javax.swing.JFrame {
     public StokProgram() {
         initComponents();
         
-<<<<<<< HEAD
               
-=======
-        
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         
         int mpp = 0;
         Main_Panels[mpp++] = this.Baru_jP;
@@ -79,15 +72,12 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jTF_IsiCrTglSmp_02x01.setEnabled(false);
         _02_jTF_IsiCrNmPlgn_02x01.setEnabled(false);
         
-<<<<<<< HEAD
         ImageIcon unscaled_icon = new ImageIcon(".\\lol(60x60).gif");
         
 //        this._02_jTb_DtCr_02x03.setIcon(unscaled_icon);
 //        this._01_jTF_NmPlngn_02x02.setPressedIcon(unscaled_icon);
 //        this._01_jTF_NmPlngn_02x02.setRolloverIcon(unscaled_icon);
         
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         
         System.out.println(this.getWidth() + "x" + this.getHeight());
     }
@@ -446,10 +436,7 @@ public class StokProgram extends javax.swing.JFrame {
         _08_jP_DtCr_02x02 = new javax.swing.JPanel();
         _08_jScP_DtCr_02x02 = new javax.swing.JScrollPane();
         _08_jTb_DtCr_02x02 = new javax.swing.JTable();
-<<<<<<< HEAD
         jTabbedPane1 = new javax.swing.JTabbedPane();
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1600, 613));
@@ -463,42 +450,24 @@ public class StokProgram extends javax.swing.JFrame {
         TB_jP.setPreferredSize(new java.awt.Dimension(200, 585));
 
         TB_jP_01.setBackground(new java.awt.Color(168, 214, 253));
-<<<<<<< HEAD
         TB_jP_01.setMaximumSize(new java.awt.Dimension(200, 238));
         TB_jP_01.setMinimumSize(new java.awt.Dimension(200, 238));
         TB_jP_01.setPreferredSize(new java.awt.Dimension(200, 238));
-=======
-        TB_jP_01.setMaximumSize(new java.awt.Dimension(200, 248));
-        TB_jP_01.setMinimumSize(new java.awt.Dimension(200, 248));
-        TB_jP_01.setPreferredSize(new java.awt.Dimension(200, 248));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         TB_jLb_Penjualan_01.setBackground(new java.awt.Color(168, 214, 253));
         TB_jLb_Penjualan_01.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
         TB_jLb_Penjualan_01.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TB_jLb_Penjualan_01.setText("PENJUALAN");
-<<<<<<< HEAD
         TB_jLb_Penjualan_01.setMaximumSize(new java.awt.Dimension(200, 20));
         TB_jLb_Penjualan_01.setMinimumSize(new java.awt.Dimension(200, 20));
         TB_jLb_Penjualan_01.setPreferredSize(new java.awt.Dimension(200, 20));
-=======
-        TB_jLb_Penjualan_01.setMaximumSize(new java.awt.Dimension(200, 26));
-        TB_jLb_Penjualan_01.setMinimumSize(new java.awt.Dimension(200, 26));
-        TB_jLb_Penjualan_01.setPreferredSize(new java.awt.Dimension(200, 26));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         TB_01_jB_BwtNtJl_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_01_jB_BwtNtJl_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_01_jB_BwtNtJl_01.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>PENJUALAN</p></html>");
-<<<<<<< HEAD
         TB_01_jB_BwtNtJl_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_01_jB_BwtNtJl_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_01_jB_BwtNtJl_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_01_jB_BwtNtJl_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_01_jB_BwtNtJl_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_01_jB_BwtNtJl_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_01_jB_BwtNtJl_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_01_jB_BwtNtJl_01ActionPerformed(evt);
@@ -508,15 +477,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_03_jB_BwtNtTkr_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_03_jB_BwtNtTkr_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_03_jB_BwtNtTkr_01.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>PENUKARAN</p></html>");
-<<<<<<< HEAD
         TB_03_jB_BwtNtTkr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_03_jB_BwtNtTkr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_03_jB_BwtNtTkr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_03_jB_BwtNtTkr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_03_jB_BwtNtTkr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_03_jB_BwtNtTkr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_03_jB_BwtNtTkr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_03_jB_BwtNtTkr_01ActionPerformed(evt);
@@ -526,15 +489,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_05_jB_BwtNtRtrUsr_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_05_jB_BwtNtRtrUsr_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_05_jB_BwtNtRtrUsr_01.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>RETUR USER</p></html>");
-<<<<<<< HEAD
         TB_05_jB_BwtNtRtrUsr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_05_jB_BwtNtRtrUsr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_05_jB_BwtNtRtrUsr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_05_jB_BwtNtRtrUsr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_05_jB_BwtNtRtrUsr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_05_jB_BwtNtRtrUsr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_05_jB_BwtNtRtrUsr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_05_jB_BwtNtRtrUsr_01ActionPerformed(evt);
@@ -544,15 +501,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_07_jB_BwtUsrBr_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_07_jB_BwtUsrBr_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_07_jB_BwtUsrBr_01.setText("<html><p style= text-align:\"center\";>BUAT<br/>PELANGGAN BARU</p></html>");
-<<<<<<< HEAD
         TB_07_jB_BwtUsrBr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_07_jB_BwtUsrBr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_07_jB_BwtUsrBr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_07_jB_BwtUsrBr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_07_jB_BwtUsrBr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_07_jB_BwtUsrBr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_07_jB_BwtUsrBr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_07_jB_BwtUsrBr_01ActionPerformed(evt);
@@ -562,15 +513,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_02_jB_DftNtJl_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_02_jB_DftNtJl_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_02_jB_DftNtJl_01.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>PENJUALAN</p></html>");
-<<<<<<< HEAD
         TB_02_jB_DftNtJl_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_02_jB_DftNtJl_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_02_jB_DftNtJl_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_02_jB_DftNtJl_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_02_jB_DftNtJl_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_02_jB_DftNtJl_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_02_jB_DftNtJl_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_02_jB_DftNtJl_01ActionPerformed(evt);
@@ -580,15 +525,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_04_jB_DftNtTkr_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_04_jB_DftNtTkr_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_04_jB_DftNtTkr_01.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>PENUKARAN</p></html>");
-<<<<<<< HEAD
         TB_04_jB_DftNtTkr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_04_jB_DftNtTkr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_04_jB_DftNtTkr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_04_jB_DftNtTkr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_04_jB_DftNtTkr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_04_jB_DftNtTkr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_04_jB_DftNtTkr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_04_jB_DftNtTkr_01ActionPerformed(evt);
@@ -600,15 +539,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_06_jB_DftNtRtrUsr_01.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>RETUR USER</p></html>");
         TB_06_jB_DftNtRtrUsr_01.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         TB_06_jB_DftNtRtrUsr_01.setMargin(new java.awt.Insets(2, 0, 2, 0));
-<<<<<<< HEAD
         TB_06_jB_DftNtRtrUsr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_06_jB_DftNtRtrUsr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_06_jB_DftNtRtrUsr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_06_jB_DftNtRtrUsr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_06_jB_DftNtRtrUsr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_06_jB_DftNtRtrUsr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_06_jB_DftNtRtrUsr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_06_jB_DftNtRtrUsr_01ActionPerformed(evt);
@@ -618,15 +551,9 @@ public class StokProgram extends javax.swing.JFrame {
         TB_08_jB_EdtDftUsr_01.setBackground(new java.awt.Color(202, 202, 202));
         TB_08_jB_EdtDftUsr_01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         TB_08_jB_EdtDftUsr_01.setText("<html><p style= text-align:\"center\";>DAFTAR<br/>PELANGGAN</p></html>");
-<<<<<<< HEAD
         TB_08_jB_EdtDftUsr_01.setMaximumSize(new java.awt.Dimension(92, 47));
         TB_08_jB_EdtDftUsr_01.setMinimumSize(new java.awt.Dimension(92, 47));
         TB_08_jB_EdtDftUsr_01.setPreferredSize(new java.awt.Dimension(92, 47));
-=======
-        TB_08_jB_EdtDftUsr_01.setMaximumSize(new java.awt.Dimension(92, 48));
-        TB_08_jB_EdtDftUsr_01.setMinimumSize(new java.awt.Dimension(92, 48));
-        TB_08_jB_EdtDftUsr_01.setPreferredSize(new java.awt.Dimension(92, 48));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_08_jB_EdtDftUsr_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TB_08_jB_EdtDftUsr_01ActionPerformed(evt);
@@ -659,7 +586,6 @@ public class StokProgram extends javax.swing.JFrame {
             TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TB_jP_01Layout.createSequentialGroup()
                 .addGap(5, 5, 5)
-<<<<<<< HEAD
                 .addComponent(TB_jLb_Penjualan_01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(5, 5, 5)
                 .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -677,42 +603,15 @@ public class StokProgram extends javax.swing.JFrame {
                 .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TB_07_jB_BwtUsrBr_01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(TB_08_jB_EdtDftUsr_01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                .addComponent(TB_jLb_Penjualan_01, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(5, 5, 5)
-                .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TB_01_jB_BwtNtJl_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TB_02_jB_DftNtJl_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(5, 5, 5)
-                .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TB_03_jB_BwtNtTkr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TB_04_jB_DftNtTkr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(5, 5, 5)
-                .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TB_05_jB_BwtNtRtrUsr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TB_06_jB_DftNtRtrUsr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(5, 5, 5)
-                .addGroup(TB_jP_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TB_07_jB_BwtUsrBr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TB_08_jB_EdtDftUsr_01, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 .addGap(5, 5, 5))
         );
 
         TB_jP_02.setBackground(new java.awt.Color(172, 191, 255));
-<<<<<<< HEAD
         TB_jP_02.setMaximumSize(new java.awt.Dimension(200, 186));
         TB_jP_02.setMinimumSize(new java.awt.Dimension(200, 186));
         TB_jP_02.setPreferredSize(new java.awt.Dimension(200, 186));
 
         TB_jLb_Pembelian_02.setBackground(new java.awt.Color(172, 191, 255));
-=======
-        TB_jP_02.setMaximumSize(new java.awt.Dimension(200, 195));
-        TB_jP_02.setMinimumSize(new java.awt.Dimension(200, 195));
-        TB_jP_02.setPreferredSize(new java.awt.Dimension(200, 195));
-
-        TB_jLb_Pembelian_02.setBackground(new java.awt.Color(209, 254, 255));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         TB_jLb_Pembelian_02.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
         TB_jLb_Pembelian_02.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         TB_jLb_Pembelian_02.setText("PEMBELIAN");
@@ -806,15 +705,9 @@ public class StokProgram extends javax.swing.JFrame {
         );
 
         TB_jP_03.setBackground(new java.awt.Color(159, 153, 243));
-<<<<<<< HEAD
         TB_jP_03.setMaximumSize(new java.awt.Dimension(200, 134));
         TB_jP_03.setMinimumSize(new java.awt.Dimension(200, 134));
         TB_jP_03.setPreferredSize(new java.awt.Dimension(200, 134));
-=======
-        TB_jP_03.setMaximumSize(new java.awt.Dimension(200, 142));
-        TB_jP_03.setMinimumSize(new java.awt.Dimension(200, 142));
-        TB_jP_03.setPreferredSize(new java.awt.Dimension(200, 142));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         TB_jLb_Stok_03.setBackground(new java.awt.Color(159, 153, 243));
         TB_jLb_Stok_03.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
@@ -934,19 +827,11 @@ public class StokProgram extends javax.swing.JFrame {
             TB_jPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TB_jPLayout.createSequentialGroup()
                 .addGap(0, 0, 0)
-<<<<<<< HEAD
                 .addComponent(TB_jP_01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(TB_jP_02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(TB_jP_03, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-=======
-                .addComponent(TB_jP_01, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(TB_jP_02, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(TB_jP_03, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 .addGap(0, 0, 0)
                 .addComponent(TB_jP_Tuts, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -1219,12 +1104,9 @@ public class StokProgram extends javax.swing.JFrame {
 
         _01_jScP_Alamat_02x02.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         _01_jScP_Alamat_02x02.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-<<<<<<< HEAD
         _01_jScP_Alamat_02x02.setMaximumSize(new java.awt.Dimension(290, 49));
         _01_jScP_Alamat_02x02.setMinimumSize(new java.awt.Dimension(290, 49));
         _01_jScP_Alamat_02x02.setPreferredSize(new java.awt.Dimension(290, 49));
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         _01_jTA_Alamat_02x02.setColumns(20);
         _01_jTA_Alamat_02x02.setRows(5);
@@ -1238,28 +1120,17 @@ public class StokProgram extends javax.swing.JFrame {
             _01_jP_IdUser_02x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(_01_jTF_NmPlngn_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(_01_jCmBx_DftNmPlgn_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
             .addComponent(_01_jScP_Alamat_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-=======
-            .addComponent(_01_jScP_Alamat_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _01_jP_IdUser_02x02Layout.setVerticalGroup(
             _01_jP_IdUser_02x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(_01_jP_IdUser_02x02Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
                 .addComponent(_01_jTF_NmPlngn_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(0, 0, 0)
                 .addComponent(_01_jCmBx_DftNmPlgn_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(_01_jScP_Alamat_02x02, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-                .addGap(2, 2, 2)
-                .addComponent(_01_jCmBx_DftNmPlgn_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(_01_jScP_Alamat_02x02, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
 
         _01_jP_InptDt_02x03.setBackground(new java.awt.Color(75, 190, 233));
@@ -1268,11 +1139,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jP_InptDt_02x03.setPreferredSize(new java.awt.Dimension(580, 47));
 
         _01_jTF_Imei_02x03.setEditable(false);
-<<<<<<< HEAD
         _01_jTF_Imei_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_Imei_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_Imei_02x03.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _01_jTF_Imei_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_Imei_02x03.setText("IMEI");
@@ -1281,11 +1148,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_Imei_02x03.setMinimumSize(new java.awt.Dimension(115, 20));
         _01_jTF_Imei_02x03.setPreferredSize(new java.awt.Dimension(115, 20));
 
-<<<<<<< HEAD
         _01_jTF_IsiImei_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_IsiImei_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_IsiImei_02x03.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _01_jTF_IsiImei_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_IsiImei_02x03.setText("312456789012345");
@@ -1295,11 +1158,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_IsiImei_02x03.setPreferredSize(new java.awt.Dimension(115, 21));
 
         _01_jTF_NmBrg_02x03.setEditable(false);
-<<<<<<< HEAD
         _01_jTF_NmBrg_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_NmBrg_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_NmBrg_02x03.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _01_jTF_NmBrg_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_NmBrg_02x03.setText("NAMA BARANG");
@@ -1308,11 +1167,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_NmBrg_02x03.setMinimumSize(new java.awt.Dimension(225, 20));
         _01_jTF_NmBrg_02x03.setPreferredSize(new java.awt.Dimension(225, 20));
 
-<<<<<<< HEAD
         _01_jTF_IsiNmBrg_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_IsiNmBrg_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_IsiNmBrg_02x03.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _01_jTF_IsiNmBrg_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_IsiNmBrg_02x03.setText("HAP SAMSAM GALSAMSAM GALSAMSAM");
@@ -1322,11 +1177,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_IsiNmBrg_02x03.setPreferredSize(new java.awt.Dimension(225, 21));
 
         _01_jTF_Qty_02x03.setEditable(false);
-<<<<<<< HEAD
         _01_jTF_Qty_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_Qty_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_Qty_02x03.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _01_jTF_Qty_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_Qty_02x03.setText("UNIT");
@@ -1335,11 +1186,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_Qty_02x03.setMinimumSize(new java.awt.Dimension(60, 20));
         _01_jTF_Qty_02x03.setPreferredSize(new java.awt.Dimension(60, 20));
 
-<<<<<<< HEAD
         _01_jTF_isiQty_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_isiQty_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_isiQty_02x03.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _01_jTF_isiQty_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_isiQty_02x03.setText("1000");
@@ -1349,11 +1196,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_isiQty_02x03.setPreferredSize(new java.awt.Dimension(60, 21));
 
         _01_jTF_Hrg_02x03.setEditable(false);
-<<<<<<< HEAD
         _01_jTF_Hrg_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_Hrg_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_Hrg_02x03.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _01_jTF_Hrg_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_Hrg_02x03.setText("HARGA");
@@ -1362,11 +1205,7 @@ public class StokProgram extends javax.swing.JFrame {
         _01_jTF_Hrg_02x03.setMinimumSize(new java.awt.Dimension(85, 20));
         _01_jTF_Hrg_02x03.setPreferredSize(new java.awt.Dimension(85, 20));
 
-<<<<<<< HEAD
         _01_jTF_IsiHrg_02x03.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _01_jTF_IsiHrg_02x03.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jTF_IsiHrg_02x03.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _01_jTF_IsiHrg_02x03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         _01_jTF_IsiHrg_02x03.setText("10.000.000");
@@ -1451,7 +1290,6 @@ public class StokProgram extends javax.swing.JFrame {
             new String [] {
                 "<html><h style=\"font-family:arial;font-size:11pt\"><b>NO.</b></h></html>", "<html><p style=\"font-family:arial;font-size:11pt\"><b>NAMA BARANG</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>IMEI</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>HARGA</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>UNIT</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>TOTAL</b></p></html>"
             }
-<<<<<<< HEAD
         ) {
             boolean[] canEdit = new boolean [] {
                 false, false, false, false, false, false
@@ -1461,9 +1299,6 @@ public class StokProgram extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-=======
-        ));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _01_jScP_Data_02x04.setViewportView(_01_jTb_Data_02x04);
         if (_01_jTb_Data_02x04.getColumnModel().getColumnCount() > 0) {
             _01_jTb_Data_02x04.getColumnModel().getColumn(0).setMinWidth(25);
@@ -1494,13 +1329,9 @@ public class StokProgram extends javax.swing.JFrame {
         );
         _01_jP_Data_02x04Layout.setVerticalGroup(
             _01_jP_Data_02x04Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, _01_jP_Data_02x04Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(_01_jScP_Data_02x04, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-            .addComponent(_01_jScP_Data_02x04, javax.swing.GroupLayout.DEFAULT_SIZE, 402, Short.MAX_VALUE)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
 
         _01_jP_Keterangan_02x05.setBackground(new java.awt.Color(168, 214, 253));
@@ -1736,7 +1567,6 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_OpsiCr_02x01.setMinimumSize(new java.awt.Dimension(580, 92));
         _02_jP_OpsiCr_02x01.setPreferredSize(new java.awt.Dimension(580, 92));
 
-<<<<<<< HEAD
         _02_jP_CrImei_02x01.setBackground(new java.awt.Color(51, 255, 51));
         _02_jP_CrImei_02x01.setMaximumSize(new java.awt.Dimension(150, 20));
         _02_jP_CrImei_02x01.setMinimumSize(new java.awt.Dimension(150, 20));
@@ -1744,14 +1574,6 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_CrImei_02x01.setPreferredSize(new java.awt.Dimension(150, 20));
 
         _02_jCBx_CrImei_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jP_CrImei_02x01.setBackground(new java.awt.Color(113, 143, 169));
-        _02_jP_CrImei_02x01.setMaximumSize(new java.awt.Dimension(150, 20));
-        _02_jP_CrImei_02x01.setMinimumSize(new java.awt.Dimension(150, 20));
-        _02_jP_CrImei_02x01.setPreferredSize(new java.awt.Dimension(150, 20));
-
-        _02_jCBx_CrImei_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_CrImei_02x01.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _02_jCBx_CrImei_02x01.setText("CARI IMEI");
         _02_jCBx_CrImei_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1800,11 +1622,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_CrTgl_02x01.setMinimumSize(new java.awt.Dimension(150, 20));
         _02_jP_CrTgl_02x01.setPreferredSize(new java.awt.Dimension(150, 20));
 
-<<<<<<< HEAD
         _02_jCBx_CrTgl_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jCBx_CrTgl_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_CrTgl_02x01.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _02_jCBx_CrTgl_02x01.setText("CARI TANGGAL");
         _02_jCBx_CrTgl_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1869,11 +1687,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_CrInv_02x01.setMinimumSize(new java.awt.Dimension(140, 20));
         _02_jP_CrInv_02x01.setPreferredSize(new java.awt.Dimension(140, 20));
 
-<<<<<<< HEAD
         _02_jCBx_CrInv_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jCBx_CrInv_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_CrInv_02x01.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _02_jCBx_CrInv_02x01.setText("CARI NO. NOTA");
         _02_jCBx_CrInv_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1917,11 +1731,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_CrNmPlgn_02x01.setMinimumSize(new java.awt.Dimension(187, 20));
         _02_jP_CrNmPlgn_02x01.setPreferredSize(new java.awt.Dimension(187, 20));
 
-<<<<<<< HEAD
         _02_jCBx_CrNmPlg_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jCBx_CrNmPlg_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_CrNmPlg_02x01.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _02_jCBx_CrNmPlg_02x01.setText("CARI NAMA PELANGGAN");
         _02_jCBx_CrNmPlg_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1970,11 +1780,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_CrNmBrg_02x01.setMinimumSize(new java.awt.Dimension(187, 20));
         _02_jP_CrNmBrg_02x01.setPreferredSize(new java.awt.Dimension(187, 20));
 
-<<<<<<< HEAD
         _02_jCBx_CrNmBrg_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jCBx_CrNmBrg_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_CrNmBrg_02x01.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         _02_jCBx_CrNmBrg_02x01.setText("CARI NAMA BARANG");
         _02_jCBx_CrNmBrg_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2018,11 +1824,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jP_ShwAll_02x01.setMinimumSize(new java.awt.Dimension(140, 42));
         _02_jP_ShwAll_02x01.setPreferredSize(new java.awt.Dimension(140, 42));
 
-<<<<<<< HEAD
         _02_jCBx_ShwAll_02x01.setBackground(new java.awt.Color(119, 158, 189));
-=======
-        _02_jCBx_ShwAll_02x01.setBackground(new java.awt.Color(113, 143, 169));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jCBx_ShwAll_02x01.setFont(new java.awt.Font("Arial", 3, 13)); // NOI18N
         _02_jCBx_ShwAll_02x01.setText("<html><p style= text-align:\"center\";>TAMPILKAN<br/>SELURUH NOTA</p></html>");
         _02_jCBx_ShwAll_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2136,11 +1938,7 @@ public class StokProgram extends javax.swing.JFrame {
         _02_jLb_BykTgl_02x02.setBackground(new java.awt.Color(75, 190, 233));
         _02_jLb_BykTgl_02x02.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _02_jLb_BykTgl_02x02.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-<<<<<<< HEAD
         _02_jLb_BykTgl_02x02.setText("<html><p style= \"text-align: center\";>PERIODE PENCARIAN<br/><b style=\"font-size=18\";>20-03-2014 S/D 22-05-2014</b></p></html>");
-=======
-        _02_jLb_BykTgl_02x02.setText("<html><p style= \"text-align: center\";>PERIODE PENCARIAN<br/><b>20-03-2014 S/D 22-05-2014</b></p></html>");
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _02_jLb_BykTgl_02x02.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         _02_jLb_BykTgl_02x02.setMaximumSize(new java.awt.Dimension(189, 26));
         _02_jLb_BykTgl_02x02.setMinimumSize(new java.awt.Dimension(189, 26));
@@ -2366,30 +2164,18 @@ public class StokProgram extends javax.swing.JFrame {
                 .addGap(0, 0, 0))
         );
 
-<<<<<<< HEAD
         _03_jP_BwtNtTkr_02.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_BwtNtTkr_02.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_BwtNtTkr_02.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         _03_jP_BwtNtTkr_02.setMaximumSize(new java.awt.Dimension(600, 509));
         _03_jP_BwtNtTkr_02.setMinimumSize(new java.awt.Dimension(600, 509));
         _03_jP_BwtNtTkr_02.setPreferredSize(new java.awt.Dimension(600, 509));
 
-<<<<<<< HEAD
         _03_jP_NoNotaRtr_02x01.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_NoNotaRtr_02x01.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_NoNotaRtr_02x01.setMaximumSize(new java.awt.Dimension(290, 92));
         _03_jP_NoNotaRtr_02x01.setMinimumSize(new java.awt.Dimension(290, 92));
         _03_jP_NoNotaRtr_02x01.setPreferredSize(new java.awt.Dimension(290, 92));
 
-<<<<<<< HEAD
         _03_jP_IdNotaRtr_02x01.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_IdNotaRtr_02x01.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_IdNotaRtr_02x01.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         _03_jP_IdNotaRtr_02x01.setMaximumSize(new java.awt.Dimension(290, 46));
         _03_jP_IdNotaRtr_02x01.setMinimumSize(new java.awt.Dimension(290, 46));
@@ -2445,11 +2231,7 @@ public class StokProgram extends javax.swing.JFrame {
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-<<<<<<< HEAD
         _03_jP_NmPlgn_02x02.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_NmPlgn_02x02.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_NmPlgn_02x02.setMaximumSize(new java.awt.Dimension(290, 92));
         _03_jP_NmPlgn_02x02.setMinimumSize(new java.awt.Dimension(290, 92));
         _03_jP_NmPlgn_02x02.setPreferredSize(new java.awt.Dimension(290, 92));
@@ -2496,11 +2278,7 @@ public class StokProgram extends javax.swing.JFrame {
                 .addComponent(_03_jTA_Alamat_02x02, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE))
         );
 
-<<<<<<< HEAD
         _03_jP_Rtr_Inv_02x03.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_Rtr_Inv_02x03.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_Rtr_Inv_02x03.setMaximumSize(new java.awt.Dimension(580, 298));
         _03_jP_Rtr_Inv_02x03.setMinimumSize(new java.awt.Dimension(580, 298));
         _03_jP_Rtr_Inv_02x03.setPreferredSize(new java.awt.Dimension(580, 298));
@@ -2567,43 +2345,26 @@ public class StokProgram extends javax.swing.JFrame {
         _03_jP_NoNotaRtr_02x03x01x02.setPreferredSize(new java.awt.Dimension(279, 43));
 
         _03_jP_NtRtr_02x03x01x02.setBackground(new java.awt.Color(240, 120, 83));
-<<<<<<< HEAD
         _03_jP_NtRtr_02x03x01x02.setMaximumSize(new java.awt.Dimension(275, 35));
         _03_jP_NtRtr_02x03x01x02.setMinimumSize(new java.awt.Dimension(275, 35));
         _03_jP_NtRtr_02x03x01x02.setPreferredSize(new java.awt.Dimension(275, 35));
-=======
-        _03_jP_NtRtr_02x03x01x02.setMaximumSize(new java.awt.Dimension(274, 25));
-        _03_jP_NtRtr_02x03x01x02.setMinimumSize(new java.awt.Dimension(274, 25));
-        _03_jP_NtRtr_02x03x01x02.setPreferredSize(new java.awt.Dimension(274, 25));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         _03_jLb_NtRtr_02x03x01x02.setBackground(new java.awt.Color(240, 120, 83));
         _03_jLb_NtRtr_02x03x01x02.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         _03_jLb_NtRtr_02x03x01x02.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         _03_jLb_NtRtr_02x03x01x02.setText("RTR301220140001");
         _03_jLb_NtRtr_02x03x01x02.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-<<<<<<< HEAD
         _03_jLb_NtRtr_02x03x01x02.setMaximumSize(new java.awt.Dimension(271, 35));
         _03_jLb_NtRtr_02x03x01x02.setMinimumSize(new java.awt.Dimension(271, 35));
         _03_jLb_NtRtr_02x03x01x02.setPreferredSize(new java.awt.Dimension(271, 35));
-=======
-        _03_jLb_NtRtr_02x03x01x02.setMaximumSize(new java.awt.Dimension(279, 25));
-        _03_jLb_NtRtr_02x03x01x02.setMinimumSize(new java.awt.Dimension(279, 25));
-        _03_jLb_NtRtr_02x03x01x02.setPreferredSize(new java.awt.Dimension(279, 25));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         javax.swing.GroupLayout _03_jP_NtRtr_02x03x01x02Layout = new javax.swing.GroupLayout(_03_jP_NtRtr_02x03x01x02);
         _03_jP_NtRtr_02x03x01x02.setLayout(_03_jP_NtRtr_02x03x01x02Layout);
         _03_jP_NtRtr_02x03x01x02Layout.setHorizontalGroup(
             _03_jP_NtRtr_02x03x01x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, _03_jP_NtRtr_02x03x01x02Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGap(4, 4, 4)
                 .addComponent(_03_jLb_NtRtr_02x03x01x02, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-=======
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(_03_jLb_NtRtr_02x03x01x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _03_jP_NtRtr_02x03x01x02Layout.setVerticalGroup(
             _03_jP_NtRtr_02x03x01x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2616,22 +2377,14 @@ public class StokProgram extends javax.swing.JFrame {
         _03_jP_NoNotaRtr_02x03x01x02.setLayout(_03_jP_NoNotaRtr_02x03x01x02Layout);
         _03_jP_NoNotaRtr_02x03x01x02Layout.setHorizontalGroup(
             _03_jP_NoNotaRtr_02x03x01x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
             .addGroup(_03_jP_NoNotaRtr_02x03x01x02Layout.createSequentialGroup()
                 .addComponent(_03_jP_NtRtr_02x03x01x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 4, Short.MAX_VALUE))
-=======
-            .addComponent(_03_jP_NtRtr_02x03x01x02, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 279, Short.MAX_VALUE)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _03_jP_NoNotaRtr_02x03x01x02Layout.setVerticalGroup(
             _03_jP_NoNotaRtr_02x03x01x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(_03_jP_NoNotaRtr_02x03x01x02Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGap(4, 4, 4)
-=======
-                .addGap(9, 9, 9)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 .addComponent(_03_jP_NtRtr_02x03x01x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -3150,11 +2903,7 @@ public class StokProgram extends javax.swing.JFrame {
             .addComponent(_03_jScP_Rtr_Inv_02x03, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-<<<<<<< HEAD
         _03_jP_Keterangan_02x04.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_Keterangan_02x04.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_Keterangan_02x04.setMaximumSize(new java.awt.Dimension(290, 99));
         _03_jP_Keterangan_02x04.setMinimumSize(new java.awt.Dimension(290, 99));
         _03_jP_Keterangan_02x04.setPreferredSize(new java.awt.Dimension(290, 99));
@@ -3181,11 +2930,7 @@ public class StokProgram extends javax.swing.JFrame {
             .addComponent(_03_jScP_Keterangan_02x04, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-<<<<<<< HEAD
         _03_jP_InputXtra_02x05.setBackground(new java.awt.Color(255, 153, 0));
-=======
-        _03_jP_InputXtra_02x05.setBackground(new java.awt.Color(168, 214, 253));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _03_jP_InputXtra_02x05.setMaximumSize(new java.awt.Dimension(220, 99));
         _03_jP_InputXtra_02x05.setMinimumSize(new java.awt.Dimension(290, 99));
         _03_jP_InputXtra_02x05.setPreferredSize(new java.awt.Dimension(290, 99));
@@ -4210,11 +3955,7 @@ public class StokProgram extends javax.swing.JFrame {
 
         _05_jTF_KtrganRsk_02x04.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         _05_jTF_KtrganRsk_02x04.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-<<<<<<< HEAD
         _05_jTF_KtrganRsk_02x04.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
-=======
-        _05_jTF_KtrganRsk_02x04.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 2, 11))); // NOI18N
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _05_jTF_KtrganRsk_02x04.setMaximumSize(new java.awt.Dimension(491, 35));
         _05_jTF_KtrganRsk_02x04.setMinimumSize(new java.awt.Dimension(491, 35));
         _05_jTF_KtrganRsk_02x04.setPreferredSize(new java.awt.Dimension(491, 35));
@@ -5358,11 +5099,7 @@ public class StokProgram extends javax.swing.JFrame {
                 .addGroup(_07_jP_Cp_02x02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(_07_jTF_TlpCp_02x01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(_07_jTF_IsiTlpCp_02x01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-<<<<<<< HEAD
                 .addGap(0, 0, 0))
-=======
-                .addGap(18, 18, 18))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
 
         _07_jP_Keterangan_02x03.setBackground(new java.awt.Color(168, 214, 253));
@@ -5380,11 +5117,7 @@ public class StokProgram extends javax.swing.JFrame {
         _07_jP_Keterangan_02x03.setLayout(_07_jP_Keterangan_02x03Layout);
         _07_jP_Keterangan_02x03Layout.setHorizontalGroup(
             _07_jP_Keterangan_02x03Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
             .addComponent(_07_jScP_Keterangan_02x03, javax.swing.GroupLayout.DEFAULT_SIZE, 570, Short.MAX_VALUE)
-=======
-            .addComponent(_07_jScP_Keterangan_02x03, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 570, Short.MAX_VALUE)
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _07_jP_Keterangan_02x03Layout.setVerticalGroup(
             _07_jP_Keterangan_02x03Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5440,22 +5173,13 @@ public class StokProgram extends javax.swing.JFrame {
         );
         _07_jP_NoPlgn_02x04Layout.setVerticalGroup(
             _07_jP_NoPlgn_02x04Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(_07_jP_NoPlgn_02x04Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(_07_jLb_NoPlgn_02x04, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0))
+            .addComponent(_07_jLb_NoPlgn_02x04, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         _07_jP_Penyimpanan_02x05.setBackground(new java.awt.Color(168, 214, 253));
-<<<<<<< HEAD
         _07_jP_Penyimpanan_02x05.setMaximumSize(new java.awt.Dimension(290, 61));
         _07_jP_Penyimpanan_02x05.setMinimumSize(new java.awt.Dimension(290, 61));
         _07_jP_Penyimpanan_02x05.setPreferredSize(new java.awt.Dimension(290, 61));
-=======
-        _07_jP_Penyimpanan_02x05.setMaximumSize(new java.awt.Dimension(290, 50));
-        _07_jP_Penyimpanan_02x05.setMinimumSize(new java.awt.Dimension(290, 50));
-        _07_jP_Penyimpanan_02x05.setPreferredSize(new java.awt.Dimension(290, 50));
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
 
         _07_jB_Save_02x05.setText("SIMPAN & CETAK");
         _07_jB_Save_02x05.setMaximumSize(new java.awt.Dimension(141, 50));
@@ -5513,13 +5237,8 @@ public class StokProgram extends javax.swing.JFrame {
                 .addGroup(_07_jP_BwtPlgnBr_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(_07_jP_NoPlgn_02x04, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(_07_jP_BwtPlgnBr_02Layout.createSequentialGroup()
-<<<<<<< HEAD
                         .addGap(5, 5, 5)
                         .addComponent(_07_jP_Penyimpanan_02x05, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-=======
-                        .addGap(4, 4, 4)
-                        .addComponent(_07_jP_Penyimpanan_02x05, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
 
         javax.swing.GroupLayout _07_jPLayout = new javax.swing.GroupLayout(_07_jP);
@@ -5707,10 +5426,7 @@ public class StokProgram extends javax.swing.JFrame {
         _08_jCBx_CrProv_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         _08_jCBx_CrProv_02x01.setBorderPainted(true);
         _08_jCBx_CrProv_02x01.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-<<<<<<< HEAD
         _08_jCBx_CrProv_02x01.setMargin(new java.awt.Insets(2, -2, 2, -2));
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _08_jCBx_CrProv_02x01.setMaximumSize(new java.awt.Dimension(86, 20));
         _08_jCBx_CrProv_02x01.setMinimumSize(new java.awt.Dimension(86, 20));
         _08_jCBx_CrProv_02x01.setPreferredSize(new java.awt.Dimension(86, 20));
@@ -5721,11 +5437,7 @@ public class StokProgram extends javax.swing.JFrame {
             _08_jP_CrProv_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, _08_jP_CrProv_02x01Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-<<<<<<< HEAD
                 .addComponent(_08_jCBx_CrProv_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                .addComponent(_08_jCBx_CrProv_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _08_jP_CrProv_02x01Layout.setVerticalGroup(
             _08_jP_CrProv_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5752,10 +5464,7 @@ public class StokProgram extends javax.swing.JFrame {
         _08_jCBx_CrKota_02x01.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         _08_jCBx_CrKota_02x01.setBorderPainted(true);
         _08_jCBx_CrKota_02x01.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-<<<<<<< HEAD
         _08_jCBx_CrKota_02x01.setMargin(new java.awt.Insets(2, -2, 2, -2));
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         _08_jCBx_CrKota_02x01.setMaximumSize(new java.awt.Dimension(85, 20));
         _08_jCBx_CrKota_02x01.setMinimumSize(new java.awt.Dimension(85, 20));
         _08_jCBx_CrKota_02x01.setPreferredSize(new java.awt.Dimension(85, 20));
@@ -5766,11 +5475,7 @@ public class StokProgram extends javax.swing.JFrame {
             _08_jP_CrKota_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, _08_jP_CrKota_02x01Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-<<<<<<< HEAD
                 .addComponent(_08_jCBx_CrKota_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                .addComponent(_08_jCBx_CrKota_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _08_jP_CrKota_02x01Layout.setVerticalGroup(
             _08_jP_CrKota_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5844,11 +5549,7 @@ public class StokProgram extends javax.swing.JFrame {
             _08_jP_ShwAll_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, _08_jP_ShwAll_02x01Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-<<<<<<< HEAD
                 .addComponent(_08_jCBx_ShwAll_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-                .addComponent(_08_jCBx_ShwAll_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
         _08_jP_ShwAll_02x01Layout.setVerticalGroup(
             _08_jP_ShwAll_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5889,7 +5590,6 @@ public class StokProgram extends javax.swing.JFrame {
                         .addGap(2, 2, 2)
                         .addGroup(_08_jP_OpsiCr_02x01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(_08_jP_OpsiCr_02x01Layout.createSequentialGroup()
-<<<<<<< HEAD
                                 .addComponent(_08_jP_CrProv_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(2, 2, 2)
                                 .addComponent(_08_jP_CrKota_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -5899,17 +5599,6 @@ public class StokProgram extends javax.swing.JFrame {
                                 .addComponent(_08_jTF_IsiCrKota_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(2, 2, 2)
                         .addComponent(_08_jP_ShwAll_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
-=======
-                                .addComponent(_08_jP_CrProv_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(_08_jP_CrKota_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(_08_jP_OpsiCr_02x01Layout.createSequentialGroup()
-                                .addComponent(_08_jTF_IsiCrProv_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(_08_jTF_IsiCrKota_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(2, 2, 2)
-                        .addComponent(_08_jP_ShwAll_02x01, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 .addGap(2, 2, 2)
                 .addComponent(_08_jB_Cari_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -6065,16 +5754,12 @@ public class StokProgram extends javax.swing.JFrame {
                 .addComponent(_07_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(_08_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(36, 36, 36)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 465, javax.swing.GroupLayout.PREFERRED_SIZE)
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
             .addComponent(_07_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(TB_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(Baru_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -6089,24 +5774,6 @@ public class StokProgram extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(88, 88, 88)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(_07_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TB_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Baru_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Balik_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_01_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_02_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_03_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_04_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_05_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_06_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(_08_jP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
         );
 
         pack();
@@ -6666,9 +6333,6 @@ public class StokProgram extends javax.swing.JFrame {
     private javax.swing.JTable _08_jTb_DtCr_02x02;
     private javax.swing.JTextField _0_jTF_Kota_02x01;
     private javax.swing.JPanel _7_jP_DtPlgn_02x01;
-<<<<<<< HEAD
     private javax.swing.JTabbedPane jTabbedPane1;
-=======
->>>>>>> 014dfea6eb8a901b96563268db168a9f45603e79
     // End of variables declaration//GEN-END:variables
 }

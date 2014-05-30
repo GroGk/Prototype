@@ -100,9 +100,9 @@ public class _02_DftrNtJual extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(75, 190, 233));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
-        jPanel2.setMaximumSize(new java.awt.Dimension(600, 509));
-        jPanel2.setMinimumSize(new java.awt.Dimension(600, 509));
-        jPanel2.setPreferredSize(new java.awt.Dimension(600, 509));
+        jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
+        jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
+        jPanel2.setPreferredSize(new java.awt.Dimension(600, 533));
 
         jPanel3.setBackground(new java.awt.Color(119, 158, 189));
         jPanel3.setMaximumSize(new java.awt.Dimension(580, 92));
@@ -432,6 +432,10 @@ public class _02_DftrNtJual extends javax.swing.JPanel {
         jPanel4.setMinimumSize(new java.awt.Dimension(580, 359));
         jPanel4.setPreferredSize(new java.awt.Dimension(580, 359));
 
+        jScrollPane1.setMaximumSize(new java.awt.Dimension(580, 359));
+        jScrollPane1.setMinimumSize(new java.awt.Dimension(580, 359));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(580, 359));
+
         jTable1.setBackground(new java.awt.Color(75, 190, 233));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -445,20 +449,20 @@ public class _02_DftrNtJual extends javax.swing.JPanel {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 335));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 335));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 335));
+        jTable1.setMaximumSize(new java.awt.Dimension(580, 359));
+        jTable1.setMinimumSize(new java.awt.Dimension(580, 359));
+        jTable1.setPreferredSize(new java.awt.Dimension(580, 359));
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel5.setBackground(new java.awt.Color(75, 190, 233));

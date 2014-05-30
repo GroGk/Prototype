@@ -67,12 +67,25 @@ public class Main_Frame extends javax.swing.JFrame {
         _04_DftrNtTukar1 = new prototype._04_DftrNtTukar();
         _05_BwtNtRtr1 = new prototype._05_BwtNtRtrUsr();
         _06_DftrNtRtrUsr1 = new prototype._06_DftrNtRtrUsr();
+        _07_BwtPlgnBr1 = new prototype._07_BwtPlgnBr();
+        _08_EditDftrPlgn1 = new prototype._08_EditDftrPlgn();
+        _09_BwtNtBl1 = new prototype._09_BwtNtBl();
+        _10_DftrNtBl1 = new prototype._10_DftrNtBl();
+        _11_BwtNtRtrSupl1 = new prototype._11_BwtNtRtrSupl();
+        _13_BwtSuplBr1 = new prototype._13_BwtSuplBr();
+        _14_EditDftrSupl1 = new prototype._14_EditDftrSupl();
+        _12_DftrNtRtrSup1 = new prototype._12_DftrNtRtrSup();
+        _15_BwtBrgBr2 = new prototype._15_BwtBrgBr();
+        _16_EditDftrBrg2 = new prototype._16_EditDftrBrg();
+        _17_RwytBrg1 = new prototype._17_RwytBrg();
+        _18_StokOpname1 = new prototype._18_StokOpname();
+        _00_Tutorial1 = new prototype._00_Tutorial();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setMaximumSize(new java.awt.Dimension(800, 613));
-        setMinimumSize(new java.awt.Dimension(800, 613));
-        setPreferredSize(new java.awt.Dimension(800, 613));
+        setMaximumSize(new java.awt.Dimension(11600, 613));
+        setMinimumSize(new java.awt.Dimension(11600, 613));
+        setPreferredSize(new java.awt.Dimension(11600, 613));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -85,6 +98,7 @@ public class Main_Frame extends javax.swing.JFrame {
         jPanel2.setMinimumSize(new java.awt.Dimension(200, 238));
         jPanel2.setPreferredSize(new java.awt.Dimension(200, 238));
 
+        jLabel1.setBackground(new java.awt.Color(168, 214, 253));
         jLabel1.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("PENJUALAN");
@@ -202,6 +216,7 @@ public class Main_Frame extends javax.swing.JFrame {
         jPanel3.setMinimumSize(new java.awt.Dimension(200, 186));
         jPanel3.setPreferredSize(new java.awt.Dimension(200, 186));
 
+        jLabel2.setBackground(new java.awt.Color(172, 191, 255));
         jLabel2.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("PEMBELIAN");
@@ -302,6 +317,7 @@ public class Main_Frame extends javax.swing.JFrame {
         jPanel4.setMinimumSize(new java.awt.Dimension(200, 134));
         jPanel4.setPreferredSize(new java.awt.Dimension(200, 134));
 
+        jLabel3.setBackground(new java.awt.Color(159, 153, 243));
         jLabel3.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("STOK");
@@ -444,7 +460,33 @@ public class Main_Frame extends javax.swing.JFrame {
                 .addComponent(_05_BwtNtRtr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(_06_DftrNtRtrUsr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(4200, Short.MAX_VALUE))
+                .addGap(0, 0, 0)
+                .addComponent(_07_BwtPlgnBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_08_EditDftrPlgn1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_09_BwtNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_10_DftrNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_11_BwtNtRtrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_12_DftrNtRtrSup1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_13_BwtSuplBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_14_EditDftrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_15_BwtBrgBr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_16_EditDftrBrg2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_17_RwytBrg1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_18_StokOpname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(_00_Tutorial1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -455,12 +497,26 @@ public class Main_Frame extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(_06_DftrNtRtrUsr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_05_BwtNtRtr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_04_DftrNtTukar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_03_BwtNtTukar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_02_DftrNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(_00_Tutorial1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(_18_StokOpname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(_17_RwytBrg1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(_16_EditDftrBrg2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(_15_BwtBrgBr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(_12_DftrNtRtrSup1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_13_BwtSuplBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_11_BwtNtRtrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_10_DftrNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_09_BwtNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_08_EditDftrPlgn1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_07_BwtPlgnBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_06_DftrNtRtrUsr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_05_BwtNtRtr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_04_DftrNtTukar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_03_BwtNtTukar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_02_DftrNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(_14_EditDftrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -507,12 +563,25 @@ public class Main_Frame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private prototype._00_Tutorial _00_Tutorial1;
     private prototype._01_BwtNtJual _01_BwtNtJual1;
     private prototype._02_DftrNtJual _02_DftrNtJual1;
     private prototype._03_BwtNtTukar _03_BwtNtTukar2;
     private prototype._04_DftrNtTukar _04_DftrNtTukar1;
     private prototype._05_BwtNtRtrUsr _05_BwtNtRtr1;
     private prototype._06_DftrNtRtrUsr _06_DftrNtRtrUsr1;
+    private prototype._07_BwtPlgnBr _07_BwtPlgnBr1;
+    private prototype._08_EditDftrPlgn _08_EditDftrPlgn1;
+    private prototype._09_BwtNtBl _09_BwtNtBl1;
+    private prototype._10_DftrNtBl _10_DftrNtBl1;
+    private prototype._11_BwtNtRtrSupl _11_BwtNtRtrSupl1;
+    private prototype._12_DftrNtRtrSup _12_DftrNtRtrSup1;
+    private prototype._13_BwtSuplBr _13_BwtSuplBr1;
+    private prototype._14_EditDftrSupl _14_EditDftrSupl1;
+    private prototype._15_BwtBrgBr _15_BwtBrgBr2;
+    private prototype._16_EditDftrBrg _16_EditDftrBrg2;
+    private prototype._17_RwytBrg _17_RwytBrg1;
+    private prototype._18_StokOpname _18_StokOpname1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;

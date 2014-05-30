@@ -30,6 +30,7 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
@@ -37,20 +38,20 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
-        jTextField2 = new javax.swing.JTextField();
         jComboBox1 = new javax.swing.JComboBox();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel5 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
-        jTextField13 = new javax.swing.JTextField();
-        jTextField14 = new javax.swing.JTextField();
-        jTextField15 = new javax.swing.JTextField();
-        jTextField16 = new javax.swing.JTextField();
-        jTextField17 = new javax.swing.JTextField();
-        jTextField18 = new javax.swing.JTextField();
-        jTextField19 = new javax.swing.JTextField();
-        jTextField20 = new javax.swing.JTextField();
-        jButton6 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -58,13 +59,12 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         jPanel8 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jPanel10 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(172, 191, 255));
         setMaximumSize(new java.awt.Dimension(600, 584));
@@ -72,18 +72,18 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(600, 584));
 
         jPanel1.setBackground(new java.awt.Color(172, 191, 255));
-        jPanel1.setMaximumSize(new java.awt.Dimension(600, 73));
-        jPanel1.setMinimumSize(new java.awt.Dimension(600, 73));
-        jPanel1.setPreferredSize(new java.awt.Dimension(600, 73));
+        jPanel1.setMaximumSize(new java.awt.Dimension(600, 49));
+        jPanel1.setMinimumSize(new java.awt.Dimension(600, 49));
+        jPanel1.setPreferredSize(new java.awt.Dimension(600, 49));
 
         jLabel1.setBackground(new java.awt.Color(172, 191, 255));
         jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("BUAT NOTA PEMBELIAN");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel1.setMaximumSize(new java.awt.Dimension(600, 73));
-        jLabel1.setMinimumSize(new java.awt.Dimension(600, 73));
-        jLabel1.setPreferredSize(new java.awt.Dimension(600, 73));
+        jLabel1.setMaximumSize(new java.awt.Dimension(600, 49));
+        jLabel1.setMinimumSize(new java.awt.Dimension(600, 49));
+        jLabel1.setPreferredSize(new java.awt.Dimension(600, 49));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -100,31 +100,44 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(172, 191, 255));
+        jTabbedPane1.setBackground(new java.awt.Color(79, 167, 235));
+        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTabbedPane1.setMaximumSize(new java.awt.Dimension(600, 533));
+        jTabbedPane1.setMinimumSize(new java.awt.Dimension(600, 533));
+        jTabbedPane1.setPreferredSize(new java.awt.Dimension(600, 533));
+
+        jPanel2.setBackground(new java.awt.Color(79, 167, 235));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(600, 509));
         jPanel2.setMinimumSize(new java.awt.Dimension(600, 509));
         jPanel2.setPreferredSize(new java.awt.Dimension(600, 509));
 
-        jPanel3.setBackground(new java.awt.Color(255, 102, 153));
+        jPanel3.setBackground(new java.awt.Color(79, 167, 235));
         jPanel3.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel3.setMinimumSize(new java.awt.Dimension(290, 92));
         jPanel3.setPreferredSize(new java.awt.Dimension(290, 92));
 
+        jPanel9.setBackground(new java.awt.Color(79, 167, 235));
         jPanel9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel9.setMaximumSize(new java.awt.Dimension(290, 54));
         jPanel9.setMinimumSize(new java.awt.Dimension(290, 54));
         jPanel9.setPreferredSize(new java.awt.Dimension(290, 54));
 
+        jLabel2.setBackground(new java.awt.Color(137, 155, 217));
         jLabel2.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("NTBL301220140001");
+        jLabel2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel2.setMaximumSize(new java.awt.Dimension(290, 31));
         jLabel2.setMinimumSize(new java.awt.Dimension(290, 31));
         jLabel2.setPreferredSize(new java.awt.Dimension(290, 31));
 
+        jLabel3.setBackground(new java.awt.Color(137, 155, 217));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("30 DESEMBER 2014");
+        jLabel3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel3.setMaximumSize(new java.awt.Dimension(290, 23));
         jLabel3.setMinimumSize(new java.awt.Dimension(290, 23));
         jLabel3.setPreferredSize(new java.awt.Dimension(290, 23));
@@ -148,6 +161,7 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton2.setText("BUAT BARANG BARU");
         jButton2.setMaximumSize(new java.awt.Dimension(290, 38));
         jButton2.setMinimumSize(new java.awt.Dimension(290, 38));
@@ -171,19 +185,10 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel4.setBackground(new java.awt.Color(79, 167, 235));
         jPanel4.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel4.setMinimumSize(new java.awt.Dimension(290, 92));
         jPanel4.setPreferredSize(new java.awt.Dimension(290, 92));
-
-        jTextField2.setEditable(false);
-        jTextField2.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.setText("NAMA SUPPLIER");
-        jTextField2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jTextField2.setMaximumSize(new java.awt.Dimension(290, 19));
-        jTextField2.setMinimumSize(new java.awt.Dimension(290, 19));
-        jTextField2.setPreferredSize(new java.awt.Dimension(290, 19));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ABDUL", "JADUL", "KADAL", "LABU" }));
         jComboBox1.setMaximumSize(new java.awt.Dimension(290, 24));
@@ -197,90 +202,107 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("NAMA SUPPLIER");
+        jLabel5.setMaximumSize(new java.awt.Dimension(290, 19));
+        jLabel5.setMinimumSize(new java.awt.Dimension(290, 19));
+        jLabel5.setOpaque(true);
+        jLabel5.setPreferredSize(new java.awt.Dimension(290, 19));
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(153, 51, 255));
+        jPanel5.setBackground(new java.awt.Color(79, 167, 235));
         jPanel5.setMaximumSize(new java.awt.Dimension(580, 47));
         jPanel5.setMinimumSize(new java.awt.Dimension(580, 47));
         jPanel5.setPreferredSize(new java.awt.Dimension(580, 47));
 
-        jTextField13.setEditable(false);
-        jTextField13.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
-        jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField13.setText("NAMA BARANG");
-        jTextField13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jTextField13.setMaximumSize(new java.awt.Dimension(225, 20));
-        jTextField13.setMinimumSize(new java.awt.Dimension(225, 20));
-        jTextField13.setPreferredSize(new java.awt.Dimension(225, 20));
+        jLabel4.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel4.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("NAMA BARANG");
+        jLabel4.setMaximumSize(new java.awt.Dimension(225, 20));
+        jLabel4.setMinimumSize(new java.awt.Dimension(225, 20));
+        jLabel4.setOpaque(true);
+        jLabel4.setPreferredSize(new java.awt.Dimension(225, 20));
 
-        jTextField14.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(40, 51, 60), null));
-        jTextField14.setMaximumSize(new java.awt.Dimension(225, 21));
-        jTextField14.setMinimumSize(new java.awt.Dimension(225, 21));
-        jTextField14.setPreferredSize(new java.awt.Dimension(225, 21));
+        jTextField1.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField1.setMaximumSize(new java.awt.Dimension(225, 21));
+        jTextField1.setMinimumSize(new java.awt.Dimension(225, 21));
+        jTextField1.setPreferredSize(new java.awt.Dimension(225, 21));
 
-        jTextField15.setEditable(false);
-        jTextField15.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
-        jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField15.setText("UNIT");
-        jTextField15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jTextField15.setMaximumSize(new java.awt.Dimension(60, 20));
-        jTextField15.setMinimumSize(new java.awt.Dimension(60, 20));
-        jTextField15.setPreferredSize(new java.awt.Dimension(60, 20));
+        jLabel6.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel6.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("HARGA");
+        jLabel6.setMaximumSize(new java.awt.Dimension(115, 20));
+        jLabel6.setMinimumSize(new java.awt.Dimension(115, 20));
+        jLabel6.setOpaque(true);
+        jLabel6.setPreferredSize(new java.awt.Dimension(115, 20));
 
-        jTextField16.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(40, 51, 60), null));
-        jTextField16.setMaximumSize(new java.awt.Dimension(60, 21));
-        jTextField16.setMinimumSize(new java.awt.Dimension(60, 21));
-        jTextField16.setPreferredSize(new java.awt.Dimension(60, 21));
+        jTextField2.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField2.setMaximumSize(new java.awt.Dimension(115, 21));
+        jTextField2.setMinimumSize(new java.awt.Dimension(115, 21));
+        jTextField2.setPreferredSize(new java.awt.Dimension(115, 21));
 
-        jTextField17.setEditable(false);
-        jTextField17.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
-        jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField17.setText("HARGA");
-        jTextField17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jTextField17.setMaximumSize(new java.awt.Dimension(85, 20));
-        jTextField17.setMinimumSize(new java.awt.Dimension(85, 20));
-        jTextField17.setPreferredSize(new java.awt.Dimension(85, 20));
+        jLabel7.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel7.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel7.setText("UNIT");
+        jLabel7.setMaximumSize(new java.awt.Dimension(60, 20));
+        jLabel7.setMinimumSize(new java.awt.Dimension(60, 20));
+        jLabel7.setOpaque(true);
+        jLabel7.setPreferredSize(new java.awt.Dimension(60, 20));
 
-        jTextField18.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(40, 51, 60), null));
-        jTextField18.setMaximumSize(new java.awt.Dimension(85, 21));
-        jTextField18.setMinimumSize(new java.awt.Dimension(85, 21));
-        jTextField18.setPreferredSize(new java.awt.Dimension(85, 21));
+        jTextField3.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField3.setMaximumSize(new java.awt.Dimension(60, 21));
+        jTextField3.setMinimumSize(new java.awt.Dimension(60, 21));
+        jTextField3.setPreferredSize(new java.awt.Dimension(60, 21));
 
-        jTextField19.setEditable(false);
-        jTextField19.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
-        jTextField19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField19.setText("IMEI");
-        jTextField19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jTextField19.setMaximumSize(new java.awt.Dimension(115, 20));
-        jTextField19.setMinimumSize(new java.awt.Dimension(115, 20));
-        jTextField19.setPreferredSize(new java.awt.Dimension(115, 20));
+        jLabel8.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel8.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setText("IMEI");
+        jLabel8.setMaximumSize(new java.awt.Dimension(85, 20));
+        jLabel8.setMinimumSize(new java.awt.Dimension(85, 20));
+        jLabel8.setOpaque(true);
+        jLabel8.setPreferredSize(new java.awt.Dimension(85, 20));
 
-        jTextField20.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(40, 51, 60), null));
-        jTextField20.setMaximumSize(new java.awt.Dimension(115, 21));
-        jTextField20.setMinimumSize(new java.awt.Dimension(115, 21));
-        jTextField20.setPreferredSize(new java.awt.Dimension(115, 21));
+        jTextField4.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField4.setMaximumSize(new java.awt.Dimension(85, 21));
+        jTextField4.setMinimumSize(new java.awt.Dimension(85, 21));
+        jTextField4.setPreferredSize(new java.awt.Dimension(85, 21));
 
-        jButton6.setText("MASUKAN");
-        jButton6.setMaximumSize(new java.awt.Dimension(87, 47));
-        jButton6.setMinimumSize(new java.awt.Dimension(87, 47));
-        jButton6.setPreferredSize(new java.awt.Dimension(87, 47));
+        jButton1.setText("MASUKAN");
+        jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
+        jButton1.setMaximumSize(new java.awt.Dimension(87, 47));
+        jButton1.setMinimumSize(new java.awt.Dimension(87, 47));
+        jButton1.setPreferredSize(new java.awt.Dimension(87, 47));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -288,50 +310,57 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(2, 2, 2)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(2, 2, 2)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(2, 2, 2)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, 0))
-            .addComponent(jButton6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(1, 1, 1)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        jPanel6.setBackground(new java.awt.Color(79, 167, 235));
         jPanel6.setMaximumSize(new java.awt.Dimension(580, 227));
         jPanel6.setMinimumSize(new java.awt.Dimension(580, 227));
         jPanel6.setPreferredSize(new java.awt.Dimension(580, 227));
 
+        jScrollPane2.setBackground(new java.awt.Color(79, 167, 235));
+        jScrollPane2.setMaximumSize(new java.awt.Dimension(580, 227));
+        jScrollPane2.setMinimumSize(new java.awt.Dimension(580, 227));
+        jScrollPane2.setPreferredSize(new java.awt.Dimension(580, 227));
+
+        jTable1.setBackground(new java.awt.Color(79, 167, 235));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -343,27 +372,30 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        jTable1.setMaximumSize(new java.awt.Dimension(580, 227));
+        jTable1.setMinimumSize(new java.awt.Dimension(580, 227));
+        jTable1.setPreferredSize(new java.awt.Dimension(580, 227));
         jScrollPane2.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jPanel7.setBackground(new java.awt.Color(255, 204, 51));
+        jPanel7.setBackground(new java.awt.Color(79, 167, 235));
         jPanel7.setMaximumSize(new java.awt.Dimension(290, 122));
         jPanel7.setMinimumSize(new java.awt.Dimension(290, 122));
         jPanel7.setPreferredSize(new java.awt.Dimension(290, 122));
 
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
-        jTextArea2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Keterangan", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP));
+        jTextArea2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "KETERANGAN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP));
         jScrollPane3.setViewportView(jTextArea2);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -379,60 +411,56 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel8.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel8.setBackground(new java.awt.Color(79, 167, 235));
         jPanel8.setMaximumSize(new java.awt.Dimension(290, 122));
         jPanel8.setMinimumSize(new java.awt.Dimension(290, 122));
         jPanel8.setPreferredSize(new java.awt.Dimension(290, 122));
 
-        jButton1.setText("HAPUS PILIHAN");
-        jButton1.setMaximumSize(new java.awt.Dimension(283, 22));
-        jButton1.setMinimumSize(new java.awt.Dimension(283, 22));
-        jButton1.setPreferredSize(new java.awt.Dimension(283, 22));
+        jButton3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jButton3.setText(" HAPUS PILIHAN");
+        jButton3.setEnabled(false);
+        jButton3.setMaximumSize(new java.awt.Dimension(283, 22));
+        jButton3.setMinimumSize(new java.awt.Dimension(283, 22));
+        jButton3.setPreferredSize(new java.awt.Dimension(283, 22));
 
-        jTextField3.setText("DISKON  (RP.)");
-        jTextField3.setMaximumSize(new java.awt.Dimension(105, 21));
-        jTextField3.setMinimumSize(new java.awt.Dimension(105, 21));
-        jTextField3.setPreferredSize(new java.awt.Dimension(105, 21));
+        jLabel9.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel9.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setText("DISKON  (RP.)");
+        jLabel9.setMaximumSize(new java.awt.Dimension(105, 21));
+        jLabel9.setMinimumSize(new java.awt.Dimension(105, 21));
+        jLabel9.setOpaque(true);
+        jLabel9.setPreferredSize(new java.awt.Dimension(105, 21));
 
-        jTextField4.setText("25.000");
-        jTextField4.setMaximumSize(new java.awt.Dimension(176, 21));
-        jTextField4.setMinimumSize(new java.awt.Dimension(176, 21));
-        jTextField4.setPreferredSize(new java.awt.Dimension(176, 21));
+        jTextField5.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setText("25.000");
+        jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField5.setMaximumSize(new java.awt.Dimension(176, 21));
+        jTextField5.setMinimumSize(new java.awt.Dimension(176, 21));
+        jTextField5.setPreferredSize(new java.awt.Dimension(176, 21));
 
-        jPanel10.setMaximumSize(new java.awt.Dimension(283, 23));
-        jPanel10.setMinimumSize(new java.awt.Dimension(283, 23));
-        jPanel10.setPreferredSize(new java.awt.Dimension(283, 23));
-        jPanel10.setRequestFocusEnabled(false);
+        jLabel10.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setText("<html><p style= text-align:\"center\";><b><i>TOTAL JUMLAH</i> Rp. 1.000.000.000,-</b></p></html>");
+        jLabel10.setMaximumSize(new java.awt.Dimension(283, 23));
+        jLabel10.setMinimumSize(new java.awt.Dimension(283, 23));
+        jLabel10.setOpaque(true);
+        jLabel10.setPreferredSize(new java.awt.Dimension(283, 23));
 
-        jLabel4.setText("<html><p style= text-align:\"center\";><b><i>TOTAL JUMLAH</i> Rp. 1.000.000.000,-</b></p></html>");
-        jLabel4.setMaximumSize(new java.awt.Dimension(283, 23));
-        jLabel4.setMinimumSize(new java.awt.Dimension(283, 23));
-        jLabel4.setPreferredSize(new java.awt.Dimension(283, 23));
+        jButton4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jButton4.setText("SIMPAN & CETAK");
+        jButton4.setMaximumSize(new java.awt.Dimension(140, 50));
+        jButton4.setMinimumSize(new java.awt.Dimension(140, 50));
+        jButton4.setPreferredSize(new java.awt.Dimension(140, 50));
 
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-
-        jButton7.setText("SIMPAN & CETAK");
-        jButton7.setMaximumSize(new java.awt.Dimension(140, 50));
-        jButton7.setMinimumSize(new java.awt.Dimension(140, 50));
-        jButton7.setPreferredSize(new java.awt.Dimension(140, 50));
-
-        jButton8.setText("<html><p style= text-align:\"center\";>BATALKAN<br/>TRANSAKSI</p></html>");
-        jButton8.setMaximumSize(new java.awt.Dimension(141, 50));
-        jButton8.setMinimumSize(new java.awt.Dimension(141, 50));
-        jButton8.setPreferredSize(new java.awt.Dimension(141, 50));
+        jButton5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jButton5.setText("<html><p style= text-align:\"center\";>BATALKAN<br/>TRANSAKSI</p></html>");
+        jButton5.setMaximumSize(new java.awt.Dimension(141, 50));
+        jButton5.setMinimumSize(new java.awt.Dimension(141, 50));
+        jButton5.setPreferredSize(new java.awt.Dimension(141, 50));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -441,33 +469,33 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(2, 2, 2)
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(2, 2, 2)
-                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(2, 2, 2)
-                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -508,12 +536,17 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addGap(0, 0, 0))
         );
 
+        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -521,8 +554,7 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
                 .addGap(0, 0, 0)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -530,16 +562,21 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -551,19 +588,14 @@ public class _09_BwtNtBl extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField20;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
 }

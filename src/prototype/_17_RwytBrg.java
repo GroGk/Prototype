@@ -48,18 +48,19 @@ public class _17_RwytBrg extends javax.swing.JPanel {
         setMinimumSize(new java.awt.Dimension(600, 584));
         setPreferredSize(new java.awt.Dimension(600, 584));
 
-        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
-        jPanel1.setMaximumSize(new java.awt.Dimension(600, 73));
-        jPanel1.setMinimumSize(new java.awt.Dimension(600, 73));
-        jPanel1.setPreferredSize(new java.awt.Dimension(600, 73));
+        jPanel1.setBackground(new java.awt.Color(159, 153, 243));
+        jPanel1.setMaximumSize(new java.awt.Dimension(600, 49));
+        jPanel1.setMinimumSize(new java.awt.Dimension(600, 49));
+        jPanel1.setPreferredSize(new java.awt.Dimension(600, 49));
 
+        jLabel1.setBackground(new java.awt.Color(159, 153, 243));
         jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("RIWAYAT BARANG");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel1.setMaximumSize(new java.awt.Dimension(600, 73));
-        jLabel1.setMinimumSize(new java.awt.Dimension(600, 73));
-        jLabel1.setPreferredSize(new java.awt.Dimension(600, 73));
+        jLabel1.setMaximumSize(new java.awt.Dimension(600, 49));
+        jLabel1.setMinimumSize(new java.awt.Dimension(600, 49));
+        jLabel1.setPreferredSize(new java.awt.Dimension(600, 49));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -78,13 +79,13 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
-        jPanel2.setMaximumSize(new java.awt.Dimension(600, 509));
-        jPanel2.setMinimumSize(new java.awt.Dimension(600, 509));
+        jPanel2.setBackground(new java.awt.Color(66, 129, 223));
+        jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
+        jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
         jPanel2.setName(""); // NOI18N
-        jPanel2.setPreferredSize(new java.awt.Dimension(600, 509));
+        jPanel2.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel3.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel3.setBackground(new java.awt.Color(66, 129, 223));
         jPanel3.setMaximumSize(new java.awt.Dimension(580, 92));
         jPanel3.setMinimumSize(new java.awt.Dimension(580, 92));
         jPanel3.setPreferredSize(new java.awt.Dimension(580, 92));
@@ -93,6 +94,8 @@ public class _17_RwytBrg extends javax.swing.JPanel {
         jPanel5.setMinimumSize(new java.awt.Dimension(110, 20));
         jPanel5.setPreferredSize(new java.awt.Dimension(110, 20));
 
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("PILIHAN CARI");
         jLabel2.setMaximumSize(new java.awt.Dimension(110, 20));
@@ -114,7 +117,8 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "IMEI", "NAMA BARANG", "NO. NOTA", "BARCODE" }));
         jComboBox1.setMaximumSize(new java.awt.Dimension(110, 20));
         jComboBox1.setMinimumSize(new java.awt.Dimension(110, 20));
         jComboBox1.setPreferredSize(new java.awt.Dimension(110, 20));
@@ -123,10 +127,13 @@ public class _17_RwytBrg extends javax.swing.JPanel {
         jPanel6.setMinimumSize(new java.awt.Dimension(225, 20));
         jPanel6.setPreferredSize(new java.awt.Dimension(225, 20));
 
+        jLabel3.setBackground(new java.awt.Color(119, 158, 189));
+        jLabel3.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("CARI");
         jLabel3.setMaximumSize(new java.awt.Dimension(225, 20));
         jLabel3.setMinimumSize(new java.awt.Dimension(225, 20));
+        jLabel3.setOpaque(true);
         jLabel3.setPreferredSize(new java.awt.Dimension(225, 20));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -144,11 +151,15 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        jTextField1.setBackground(new java.awt.Color(119, 158, 189));
+        jTextField1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField1.setText(" ");
+        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField1.setMaximumSize(new java.awt.Dimension(225, 20));
         jTextField1.setMinimumSize(new java.awt.Dimension(225, 20));
         jTextField1.setPreferredSize(new java.awt.Dimension(225, 20));
 
+        jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("CARI");
         jButton1.setMaximumSize(new java.awt.Dimension(70, 20));
         jButton1.setMinimumSize(new java.awt.Dimension(70, 20));
@@ -190,11 +201,17 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addGap(25, 25, 25))
         );
 
-        jPanel4.setBackground(new java.awt.Color(255, 204, 204));
-        jPanel4.setMaximumSize(new java.awt.Dimension(580, 397));
-        jPanel4.setMinimumSize(new java.awt.Dimension(580, 397));
-        jPanel4.setPreferredSize(new java.awt.Dimension(580, 397));
+        jPanel4.setBackground(new java.awt.Color(66, 129, 223));
+        jPanel4.setMaximumSize(new java.awt.Dimension(580, 421));
+        jPanel4.setMinimumSize(new java.awt.Dimension(580, 421));
+        jPanel4.setPreferredSize(new java.awt.Dimension(580, 421));
 
+        jScrollPane1.setBackground(new java.awt.Color(66, 129, 223));
+        jScrollPane1.setMaximumSize(new java.awt.Dimension(580, 421));
+        jScrollPane1.setMinimumSize(new java.awt.Dimension(580, 421));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(580, 421));
+
+        jTable1.setBackground(new java.awt.Color(66, 129, 223));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -206,17 +223,20 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        jTable1.setMaximumSize(new java.awt.Dimension(580, 421));
+        jTable1.setMinimumSize(new java.awt.Dimension(580, 421));
+        jTable1.setPreferredSize(new java.awt.Dimension(580, 421));
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 397, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

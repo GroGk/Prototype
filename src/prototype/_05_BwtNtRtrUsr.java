@@ -67,6 +67,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(168, 214, 253));
         setMaximumSize(new java.awt.Dimension(600, 584));
         setMinimumSize(new java.awt.Dimension(600, 584));
         setPreferredSize(new java.awt.Dimension(600, 584));
@@ -103,15 +104,16 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         );
 
         jTabbedPane1.setBackground(new java.awt.Color(240, 120, 83));
+        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         jTabbedPane1.setMaximumSize(new java.awt.Dimension(600, 533));
         jTabbedPane1.setMinimumSize(new java.awt.Dimension(600, 533));
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(600, 533));
 
         jPanel3.setBackground(new java.awt.Color(240, 120, 83));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
-        jPanel3.setMaximumSize(new java.awt.Dimension(580, 488));
-        jPanel3.setMinimumSize(new java.awt.Dimension(580, 488));
-        jPanel3.setPreferredSize(new java.awt.Dimension(580, 488));
+        jPanel3.setMaximumSize(new java.awt.Dimension(600, 533));
+        jPanel3.setMinimumSize(new java.awt.Dimension(600, 533));
+        jPanel3.setPreferredSize(new java.awt.Dimension(600, 533));
 
         jPanel2.setBackground(new java.awt.Color(240, 120, 83));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -159,11 +161,13 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jPanel4.setMinimumSize(new java.awt.Dimension(290, 43));
         jPanel4.setPreferredSize(new java.awt.Dimension(290, 43));
 
+        jLabel4.setBackground(new java.awt.Color(119, 158, 189));
         jLabel4.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("NOTA PELANGGAN");
         jLabel4.setMaximumSize(new java.awt.Dimension(290, 19));
         jLabel4.setMinimumSize(new java.awt.Dimension(290, 19));
+        jLabel4.setOpaque(true);
         jLabel4.setPreferredSize(new java.awt.Dimension(290, 19));
 
         jComboBox2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -268,11 +272,13 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jPanel6.setMinimumSize(new java.awt.Dimension(580, 82));
         jPanel6.setPreferredSize(new java.awt.Dimension(580, 82));
 
+        jLabel5.setBackground(new java.awt.Color(119, 158, 189));
         jLabel5.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("NAMA BARANG");
         jLabel5.setMaximumSize(new java.awt.Dimension(225, 20));
         jLabel5.setMinimumSize(new java.awt.Dimension(225, 20));
+        jLabel5.setOpaque(true);
         jLabel5.setPreferredSize(new java.awt.Dimension(225, 20));
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "DAFTAR NAMA BARANG", "LG XXX", "LOL XXX", "SAMSUNG XXX" }));
@@ -280,11 +286,13 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jComboBox3.setMinimumSize(new java.awt.Dimension(225, 21));
         jComboBox3.setPreferredSize(new java.awt.Dimension(225, 21));
 
+        jLabel6.setBackground(new java.awt.Color(119, 158, 189));
         jLabel6.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("IMEI");
         jLabel6.setMaximumSize(new java.awt.Dimension(115, 20));
         jLabel6.setMinimumSize(new java.awt.Dimension(115, 20));
+        jLabel6.setOpaque(true);
         jLabel6.setPreferredSize(new java.awt.Dimension(115, 20));
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "DAFTAR IMEI", "35111111111111", "35222222222222", "353333333333333" }));
@@ -297,11 +305,13 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             }
         });
 
+        jLabel7.setBackground(new java.awt.Color(119, 158, 189));
         jLabel7.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("UNIT");
         jLabel7.setMaximumSize(new java.awt.Dimension(60, 20));
         jLabel7.setMinimumSize(new java.awt.Dimension(60, 20));
+        jLabel7.setOpaque(true);
         jLabel7.setPreferredSize(new java.awt.Dimension(60, 20));
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -309,11 +319,13 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jComboBox5.setMinimumSize(new java.awt.Dimension(60, 21));
         jComboBox5.setPreferredSize(new java.awt.Dimension(60, 21));
 
+        jLabel8.setBackground(new java.awt.Color(119, 158, 189));
         jLabel8.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("HARGA SATUAN");
         jLabel8.setMaximumSize(new java.awt.Dimension(85, 20));
         jLabel8.setMinimumSize(new java.awt.Dimension(85, 20));
+        jLabel8.setOpaque(true);
         jLabel8.setPreferredSize(new java.awt.Dimension(85, 20));
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -323,13 +335,14 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jLabel9.setPreferredSize(new java.awt.Dimension(85, 21));
 
         jTextField1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jTextField1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
+        jTextField1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
         jTextField1.setMaximumSize(new java.awt.Dimension(491, 33));
         jTextField1.setMinimumSize(new java.awt.Dimension(491, 33));
         jTextField1.setPreferredSize(new java.awt.Dimension(491, 33));
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("MASUKAN");
+        jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(87, 82));
         jButton1.setMinimumSize(new java.awt.Dimension(87, 82));
         jButton1.setPreferredSize(new java.awt.Dimension(87, 82));
@@ -366,33 +379,31 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(2, 2, 2)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(2, 2, 2)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(4, 4, 4))
+            .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         jPanel7.setBackground(new java.awt.Color(240, 120, 83));
-        jPanel7.setMaximumSize(new java.awt.Dimension(580, 216));
-        jPanel7.setMinimumSize(new java.awt.Dimension(580, 216));
-        jPanel7.setPreferredSize(new java.awt.Dimension(580, 216));
+        jPanel7.setMaximumSize(new java.awt.Dimension(580, 213));
+        jPanel7.setMinimumSize(new java.awt.Dimension(580, 213));
+        jPanel7.setPreferredSize(new java.awt.Dimension(580, 213));
 
-        jScrollPane2.setMaximumSize(new java.awt.Dimension(580, 216));
-        jScrollPane2.setMinimumSize(new java.awt.Dimension(580, 216));
-        jScrollPane2.setPreferredSize(new java.awt.Dimension(580, 216));
+        jScrollPane2.setMaximumSize(new java.awt.Dimension(580, 213));
+        jScrollPane2.setMinimumSize(new java.awt.Dimension(580, 213));
+        jScrollPane2.setPreferredSize(new java.awt.Dimension(580, 213));
 
         jTable1.setBackground(new java.awt.Color(240, 120, 83));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -408,9 +419,9 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             }
         ));
         jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 216));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 216));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 216));
+        jTable1.setMaximumSize(new java.awt.Dimension(580, 213));
+        jTable1.setMinimumSize(new java.awt.Dimension(580, 213));
+        jTable1.setPreferredSize(new java.awt.Dimension(580, 213));
         jScrollPane2.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
             jTable1.getColumnModel().getColumn(0).setMinWidth(25);
@@ -530,7 +541,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(2, 2, 2)
+                .addGap(0, 0, 0)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -579,10 +590,10 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
         );
 
-        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:15\";><b>PELANGGAN YTH</b></p></html>", jPanel3);
+        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>PELANGGAN YTH</b></p></html>", jPanel3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

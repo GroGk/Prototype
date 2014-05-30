@@ -75,7 +75,7 @@ public class _04_DftrNtTukar extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("DAFTAR NOTA PENJUALAN");
+        jLabel1.setText("DAFTAR NOTA PENUKARAN");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jLabel1.setMaximumSize(new java.awt.Dimension(600, 49));
         jLabel1.setMinimumSize(new java.awt.Dimension(600, 49));
@@ -100,9 +100,9 @@ public class _04_DftrNtTukar extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(255, 153, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
-        jPanel2.setMaximumSize(new java.awt.Dimension(600, 509));
-        jPanel2.setMinimumSize(new java.awt.Dimension(600, 509));
-        jPanel2.setPreferredSize(new java.awt.Dimension(600, 509));
+        jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
+        jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
+        jPanel2.setPreferredSize(new java.awt.Dimension(600, 533));
 
         jPanel3.setBackground(new java.awt.Color(119, 158, 189));
         jPanel3.setMaximumSize(new java.awt.Dimension(580, 92));
@@ -433,6 +433,9 @@ public class _04_DftrNtTukar extends javax.swing.JPanel {
         jPanel4.setPreferredSize(new java.awt.Dimension(580, 359));
 
         jScrollPane1.setBackground(new java.awt.Color(255, 153, 0));
+        jScrollPane1.setMaximumSize(new java.awt.Dimension(580, 359));
+        jScrollPane1.setMinimumSize(new java.awt.Dimension(580, 359));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(580, 359));
 
         jTable1.setBackground(new java.awt.Color(255, 153, 0));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -447,20 +450,20 @@ public class _04_DftrNtTukar extends javax.swing.JPanel {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 335));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 335));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 335));
+        jTable1.setMaximumSize(new java.awt.Dimension(580, 359));
+        jTable1.setMinimumSize(new java.awt.Dimension(580, 359));
+        jTable1.setPreferredSize(new java.awt.Dimension(580, 359));
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel5.setBackground(new java.awt.Color(255, 153, 0));

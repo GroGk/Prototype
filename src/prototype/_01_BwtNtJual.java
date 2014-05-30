@@ -188,6 +188,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jPanel4.setPreferredSize(new java.awt.Dimension(290, 92));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("NAMA PELANGGAN");
         jLabel2.setMaximumSize(new java.awt.Dimension(290, 19));
@@ -331,6 +332,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("MASUKAN");
+        jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(87, 47));
         jButton1.setMinimumSize(new java.awt.Dimension(87, 47));
         jButton1.setPreferredSize(new java.awt.Dimension(87, 47));
@@ -584,7 +586,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                 .addContainerGap(40, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:15\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
+        jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

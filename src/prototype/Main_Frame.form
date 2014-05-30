@@ -7,13 +7,13 @@
       <Color blue="ff" green="ff" red="ff" type="rgb"/>
     </Property>
     <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[800, 613]"/>
+      <Dimension value="[11600, 613]"/>
     </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[800, 613]"/>
+      <Dimension value="[11600, 613]"/>
     </Property>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[800, 613]"/>
+      <Dimension value="[11600, 613]"/>
     </Property>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
@@ -51,7 +51,33 @@
               <Component id="_05_BwtNtRtr1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Component id="_06_DftrNtRtrUsr1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="4200" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_07_BwtPlgnBr1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_08_EditDftrPlgn1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_09_BwtNtBl1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_10_DftrNtBl1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_11_BwtNtRtrSupl1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_12_DftrNtRtrSup1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_13_BwtSuplBr1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_14_EditDftrSupl1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_15_BwtBrgBr2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_16_EditDftrBrg2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_17_RwytBrg1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_18_StokOpname1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="_00_Tutorial1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -66,12 +92,27 @@
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="_06_DftrNtRtrUsr1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_05_BwtNtRtr1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_04_DftrNtTukar1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_03_BwtNtTukar2" min="-2" max="-2" attributes="0"/>
-                  <Component id="_02_DftrNtJual1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="_00_Tutorial1" min="-2" max="-2" attributes="0"/>
+                  <Component id="_18_StokOpname1" min="-2" max="-2" attributes="0"/>
+                  <Component id="_17_RwytBrg1" min="-2" max="-2" attributes="0"/>
+                  <Component id="_16_EditDftrBrg2" min="-2" max="-2" attributes="0"/>
+                  <Component id="_15_BwtBrgBr2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="_12_DftrNtRtrSup1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_13_BwtSuplBr1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_11_BwtNtRtrSupl1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_10_DftrNtBl1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_09_BwtNtBl1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_08_EditDftrPlgn1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_07_BwtPlgnBr1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_06_DftrNtRtrUsr1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_05_BwtNtRtr1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_04_DftrNtTukar1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_03_BwtNtTukar2" min="-2" max="-2" attributes="0"/>
+                      <Component id="_02_DftrNtJual1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="_14_EditDftrSupl1" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -206,6 +247,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="fd" green="d6" red="a8" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="22" style="1"/>
                 </Property>
@@ -456,6 +500,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="bf" red="ac" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="22" style="1"/>
                 </Property>
@@ -659,6 +706,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="99" red="9f" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="22" style="1"/>
                 </Property>
@@ -831,6 +881,32 @@
     <Component class="prototype._05_BwtNtRtrUsr" name="_05_BwtNtRtr1">
     </Component>
     <Component class="prototype._06_DftrNtRtrUsr" name="_06_DftrNtRtrUsr1">
+    </Component>
+    <Component class="prototype._07_BwtPlgnBr" name="_07_BwtPlgnBr1">
+    </Component>
+    <Component class="prototype._08_EditDftrPlgn" name="_08_EditDftrPlgn1">
+    </Component>
+    <Component class="prototype._09_BwtNtBl" name="_09_BwtNtBl1">
+    </Component>
+    <Component class="prototype._10_DftrNtBl" name="_10_DftrNtBl1">
+    </Component>
+    <Component class="prototype._11_BwtNtRtrSupl" name="_11_BwtNtRtrSupl1">
+    </Component>
+    <Component class="prototype._13_BwtSuplBr" name="_13_BwtSuplBr1">
+    </Component>
+    <Component class="prototype._14_EditDftrSupl" name="_14_EditDftrSupl1">
+    </Component>
+    <Component class="prototype._12_DftrNtRtrSup" name="_12_DftrNtRtrSup1">
+    </Component>
+    <Component class="prototype._15_BwtBrgBr" name="_15_BwtBrgBr2">
+    </Component>
+    <Component class="prototype._16_EditDftrBrg" name="_16_EditDftrBrg2">
+    </Component>
+    <Component class="prototype._17_RwytBrg" name="_17_RwytBrg1">
+    </Component>
+    <Component class="prototype._18_StokOpname" name="_18_StokOpname1">
+    </Component>
+    <Component class="prototype._00_Tutorial" name="_00_Tutorial1">
     </Component>
   </SubComponents>
 </Form>
