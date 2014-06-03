@@ -1,5 +1,6 @@
 package prototype;
 
+import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /**
@@ -8,21 +9,44 @@ import javax.swing.JPanel;
  */
 public class Main_Frame extends javax.swing.JFrame {
 
-    _09_BwtNtBl __09_BwtNtBl;
-    JPanel[] Panels = new JPanel[50];
+    int Number_of_main_panels = 19;      //----------------------Tambahi setiap nambah panel Menu-----
+    JPanel[] Main_Panels = new JPanel[Number_of_main_panels];
     
     JPanel Current_active_panel;
     
     public Main_Frame() {
         initComponents();
         
-        __09_BwtNtBl = new _09_BwtNtBl();
-        Panels[9] = __09_BwtNtBl;
+        int mpp = 0;
+        Main_Panels[mpp++] = this._00_Tutorial1;
+        Main_Panels[mpp++] = this._01_BwtNtJual1;
+        Main_Panels[mpp++] = this._02_DftrNtJual1;
+        Main_Panels[mpp++] = this._03_BwtNtTukar2;
+        Main_Panels[mpp++] = this._04_DftrNtTukar1;
+        Main_Panels[mpp++] = this._05_BwtNtRtr1;
+        Main_Panels[mpp++] = this._06_DftrNtRtrUsr1;
+        Main_Panels[mpp++] = this._07_BwtPlgnBr1;
+        Main_Panels[mpp++] = this._08_EditDftrPlgn1;
+        Main_Panels[mpp++] = this._09_BwtNtBl1;
+        Main_Panels[mpp++] = this._10_DftrNtBl1;
+        Main_Panels[mpp++] = this._11_BwtNtRtrSupl1;
+        Main_Panels[mpp++] = this._12_DftrNtRtrSup1;
+        Main_Panels[mpp++] = this._13_BwtSuplBr1;
+        Main_Panels[mpp++] = this._14_EditDftrSupl1;
+        Main_Panels[mpp++] = this._15_BwtBrgBr2;
+        Main_Panels[mpp++] = this._16_EditDftrBrg2;
+        Main_Panels[mpp++] = this._17_RwytBrg1;
+        Main_Panels[mpp++] = this._18_StokOpname1;
+        /*
+        tambahi setiap buat panel
+        Main_Panels[mpp++] = this.zzzzzzzz;
+        */
         
-        this.add(__09_BwtNtBl);
-        __09_BwtNtBl.setVisible(true);
-        this.setSize(800, 613);
-        this.pack();
+        
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._00_Tutorial1.setVisible(true);
     }
 
     /**
@@ -83,9 +107,9 @@ public class Main_Frame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setMaximumSize(new java.awt.Dimension(11600, 613));
-        setMinimumSize(new java.awt.Dimension(11600, 613));
-        setPreferredSize(new java.awt.Dimension(11600, 613));
+        setMaximumSize(new java.awt.Dimension(800, 613));
+        setMinimumSize(new java.awt.Dimension(800, 613));
+        setPreferredSize(new java.awt.Dimension(800, 613));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -112,6 +136,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton1.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton1.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton1.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setBackground(new java.awt.Color(202, 202, 202));
         jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -119,6 +148,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton2.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton2.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton2.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setBackground(new java.awt.Color(202, 202, 202));
         jButton3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -126,6 +160,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton3.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton3.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton3.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setBackground(new java.awt.Color(202, 202, 202));
         jButton4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -133,6 +172,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton4.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton4.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton4.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setBackground(new java.awt.Color(202, 202, 202));
         jButton5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -140,6 +184,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton5.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton5.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton5.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton6.setBackground(new java.awt.Color(202, 202, 202));
         jButton6.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -147,6 +196,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton6.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton6.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton6.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setBackground(new java.awt.Color(202, 202, 202));
         jButton7.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -155,6 +209,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton7.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton7.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton7.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         jButton8.setBackground(new java.awt.Color(202, 202, 202));
         jButton8.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -162,6 +221,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton8.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton8.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton8.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -230,6 +294,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton9.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton9.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton9.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
         jButton10.setBackground(new java.awt.Color(202, 202, 202));
         jButton10.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -237,6 +306,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton10.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton10.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton10.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
 
         jButton11.setBackground(new java.awt.Color(202, 202, 202));
         jButton11.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -256,6 +330,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton12.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton12.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton12.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
         jButton13.setBackground(new java.awt.Color(202, 202, 202));
         jButton13.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -264,6 +343,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton13.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton13.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton13.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
         jButton14.setBackground(new java.awt.Color(202, 202, 202));
         jButton14.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -271,6 +355,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton14.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton14.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton14.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -331,6 +420,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton15.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton15.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton15.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
         jButton16.setBackground(new java.awt.Color(202, 202, 202));
         jButton16.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -338,6 +432,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton16.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton16.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton16.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
 
         jButton17.setBackground(new java.awt.Color(202, 202, 202));
         jButton17.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -345,6 +444,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton17.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton17.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton17.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         jButton18.setBackground(new java.awt.Color(202, 202, 202));
         jButton18.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -352,6 +456,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton18.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton18.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton18.setPreferredSize(new java.awt.Dimension(92, 47));
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -397,6 +506,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jButton19.setMaximumSize(new java.awt.Dimension(190, 27));
         jButton19.setMinimumSize(new java.awt.Dimension(190, 27));
         jButton19.setPreferredSize(new java.awt.Dimension(190, 27));
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -523,9 +637,138 @@ public class Main_Frame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._01_BwtNtJual1.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._03_BwtNtTukar2.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._05_BwtNtRtr1.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._07_BwtPlgnBr1.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._02_DftrNtJual1.setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._04_DftrNtTukar1.setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._06_DftrNtRtrUsr1.setVisible(true);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._08_EditDftrPlgn1.setVisible(true);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._09_BwtNtBl1.setVisible(true);
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._11_BwtNtRtrSupl1.setVisible(true);
+    }//GEN-LAST:event_jButton10ActionPerformed
+
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        // TODO add your handling code here:
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._13_BwtSuplBr1.setVisible(true);
     }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._10_DftrNtBl1.setVisible(true);
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._12_DftrNtRtrSup1.setVisible(true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._14_EditDftrSupl1.setVisible(true);
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._15_BwtBrgBr2.setVisible(true);
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._17_RwytBrg1.setVisible(true);
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._16_EditDftrBrg2.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._18_StokOpname1.setVisible(true);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        for (int p=0; p<Number_of_main_panels; p++) {
+            Main_Panels[p].setVisible(false);
+        }
+        this._00_Tutorial1.setVisible(true);
+    }//GEN-LAST:event_jButton19ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -556,6 +799,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new Main_Frame().setVisible(true);
             }

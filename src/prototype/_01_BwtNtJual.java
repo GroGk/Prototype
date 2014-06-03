@@ -6,6 +6,8 @@
 
 package prototype;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author asus
@@ -17,6 +19,13 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
      */
     public _01_BwtNtJual() {
         initComponents();
+        
+        
+        ImageIcon unscaled_icon_164x94 = new ImageIcon(".\\164x94.gif");
+        ImageIcon unscaled_icon_290x24 = new ImageIcon(".\\290x24.gif");
+        ImageIcon unscaled_icon_290x29 = new ImageIcon(".\\290x29.gif");
+        
+        this.jLabel7.setIcon(unscaled_icon_290x29);
     }
 
     /**
@@ -103,7 +112,6 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         );
 
         jTabbedPane1.setBackground(new java.awt.Color(168, 214, 253));
-        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTabbedPane1.setMaximumSize(new java.awt.Dimension(600, 533));
         jTabbedPane1.setMinimumSize(new java.awt.Dimension(600, 533));
@@ -262,6 +270,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel7.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("IMEI");
+        jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel7.setMaximumSize(new java.awt.Dimension(115, 20));
         jLabel7.setMinimumSize(new java.awt.Dimension(115, 20));
         jLabel7.setOpaque(true);
@@ -406,26 +415,24 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jTable1.setMinimumSize(new java.awt.Dimension(580, 227));
         jTable1.setPreferredSize(new java.awt.Dimension(580, 227));
         jScrollPane2.setViewportView(jTable1);
-        if (jTable1.getColumnModel().getColumnCount() > 0) {
-            jTable1.getColumnModel().getColumn(0).setMinWidth(25);
-            jTable1.getColumnModel().getColumn(0).setPreferredWidth(25);
-            jTable1.getColumnModel().getColumn(0).setMaxWidth(25);
-            jTable1.getColumnModel().getColumn(1).setMinWidth(220);
-            jTable1.getColumnModel().getColumn(1).setPreferredWidth(220);
-            jTable1.getColumnModel().getColumn(1).setMaxWidth(440);
-            jTable1.getColumnModel().getColumn(2).setMinWidth(110);
-            jTable1.getColumnModel().getColumn(2).setPreferredWidth(110);
-            jTable1.getColumnModel().getColumn(2).setMaxWidth(220);
-            jTable1.getColumnModel().getColumn(3).setMinWidth(65);
-            jTable1.getColumnModel().getColumn(3).setPreferredWidth(65);
-            jTable1.getColumnModel().getColumn(3).setMaxWidth(130);
-            jTable1.getColumnModel().getColumn(4).setMinWidth(40);
-            jTable1.getColumnModel().getColumn(4).setPreferredWidth(40);
-            jTable1.getColumnModel().getColumn(4).setMaxWidth(80);
-            jTable1.getColumnModel().getColumn(5).setMinWidth(80);
-            jTable1.getColumnModel().getColumn(5).setPreferredWidth(80);
-            jTable1.getColumnModel().getColumn(5).setMaxWidth(160);
-        }
+        jTable1.getColumnModel().getColumn(0).setMinWidth(25);
+        jTable1.getColumnModel().getColumn(0).setPreferredWidth(25);
+        jTable1.getColumnModel().getColumn(0).setMaxWidth(25);
+        jTable1.getColumnModel().getColumn(1).setMinWidth(220);
+        jTable1.getColumnModel().getColumn(1).setPreferredWidth(220);
+        jTable1.getColumnModel().getColumn(1).setMaxWidth(440);
+        jTable1.getColumnModel().getColumn(2).setMinWidth(110);
+        jTable1.getColumnModel().getColumn(2).setPreferredWidth(110);
+        jTable1.getColumnModel().getColumn(2).setMaxWidth(220);
+        jTable1.getColumnModel().getColumn(3).setMinWidth(65);
+        jTable1.getColumnModel().getColumn(3).setPreferredWidth(65);
+        jTable1.getColumnModel().getColumn(3).setMaxWidth(130);
+        jTable1.getColumnModel().getColumn(4).setMinWidth(40);
+        jTable1.getColumnModel().getColumn(4).setPreferredWidth(40);
+        jTable1.getColumnModel().getColumn(4).setMaxWidth(80);
+        jTable1.getColumnModel().getColumn(5).setMinWidth(80);
+        jTable1.getColumnModel().getColumn(5).setPreferredWidth(80);
+        jTable1.getColumnModel().getColumn(5).setMaxWidth(160);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -566,7 +573,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, 0)
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -583,7 +590,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>PELANGGAN YTH</b></p></html>", jPanel2);
