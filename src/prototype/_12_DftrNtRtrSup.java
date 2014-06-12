@@ -62,8 +62,9 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(168, 214, 253));
+        setBackground(new java.awt.Color(172, 191, 255));
         setMaximumSize(new java.awt.Dimension(600, 584));
         setMinimumSize(new java.awt.Dimension(600, 584));
         setPreferredSize(new java.awt.Dimension(600, 584));
@@ -99,7 +100,7 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(202, 96, 63));
+        jPanel2.setBackground(new java.awt.Color(172, 191, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
         jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
@@ -254,7 +255,7 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
 
         jCheckBox9.setBackground(new java.awt.Color(119, 158, 189));
         jCheckBox9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jCheckBox9.setText("CARI NAMA PELANGGAN");
+        jCheckBox9.setText("CARI NAMA SUPLIER");
         jCheckBox9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jCheckBox9.setBorderPainted(true);
         jCheckBox9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -428,85 +429,106 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
                 .addContainerGap(2, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(202, 96, 63));
+        jPanel4.setBackground(new java.awt.Color(172, 191, 255));
         jPanel4.setMaximumSize(new java.awt.Dimension(580, 359));
         jPanel4.setMinimumSize(new java.awt.Dimension(580, 359));
         jPanel4.setPreferredSize(new java.awt.Dimension(580, 359));
 
-        jScrollPane1.setBackground(new java.awt.Color(202, 96, 63));
-        jScrollPane1.setMaximumSize(new java.awt.Dimension(580, 359));
-        jScrollPane1.setMinimumSize(new java.awt.Dimension(580, 359));
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(580, 359));
+        jScrollPane1.setBackground(new java.awt.Color(172, 191, 255));
 
-        jTable1.setBackground(new java.awt.Color(202, 96, 63));
+        jTable1.setBackground(new java.awt.Color(172, 191, 255));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "<html><p style= \"font-family:arial;font-size:11pt\"><b>TANGGAL RETUR</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>NO. NOTA RETUR</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>NAMA SUPLIER</b></p></html> ", "<html><p style= \"font-family:arial;font-size:11pt\"><b>UNIT</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>JUMLAH</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>KETERANGAN</b></p></html>"
             }
         ));
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 359));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 359));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 359));
+        jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jScrollPane1.setViewportView(jTable1);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(1).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(1).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(1).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(2).setMinWidth(150);
+            jTable1.getColumnModel().getColumn(2).setPreferredWidth(150);
+            jTable1.getColumnModel().getColumn(2).setMaxWidth(300);
+            jTable1.getColumnModel().getColumn(3).setMinWidth(40);
+            jTable1.getColumnModel().getColumn(3).setPreferredWidth(40);
+            jTable1.getColumnModel().getColumn(3).setMaxWidth(80);
+            jTable1.getColumnModel().getColumn(4).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(4).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(4).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(5).setMinWidth(220);
+            jTable1.getColumnModel().getColumn(5).setPreferredWidth(220);
+            jTable1.getColumnModel().getColumn(5).setMaxWidth(440);
+        }
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
         );
 
-        jPanel5.setBackground(new java.awt.Color(202, 96, 63));
+        jPanel5.setBackground(new java.awt.Color(172, 191, 255));
         jPanel5.setMaximumSize(new java.awt.Dimension(580, 61));
         jPanel5.setMinimumSize(new java.awt.Dimension(580, 61));
         jPanel5.setPreferredSize(new java.awt.Dimension(580, 61));
 
         jButton2.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
-        jButton2.setText("<html><p style= text-align: \"center\";>PERIODE PENCARIAN<br/><b style= \"font-size:11\">20-03-2014 S/D 22-05-2014</b></p></html>");
-        jButton2.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton2.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton2.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton2.setText("<html><p style= text-align: \"center\";>PERIODE PENCARIAN<br/><b style= \"font-size:11\">20/03/14 - 22/05/14</b></p></html>");
+        jButton2.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton2.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton2.setPreferredSize(new java.awt.Dimension(153, 26));
 
         jButton3.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
         jButton3.setText("<html><p style= text-align: \"center\";>BANYAK PELANGGAN<br/><b style= \"font-size:11\">150 PELANGGAN</b></p></html>");
-        jButton3.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton3.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton3.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton3.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton3.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton3.setPreferredSize(new java.awt.Dimension(153, 26));
 
         jButton4.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
         jButton4.setText("<html><p style= text-align:\"center\";>UNIT TERJUAL<br/><b style= \"font-size:11\">1.000.000.000</b></p></html>");
-        jButton4.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton4.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton4.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton4.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton4.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton4.setPreferredSize(new java.awt.Dimension(153, 26));
 
         jButton5.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
         jButton5.setText("<html><p style= text-align: \"center\";>BANYAK BARANG<br/><b style= \"font-size:11\">150 TIPE</b></p></html>");
-        jButton5.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton5.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton5.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton5.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton5.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton5.setPreferredSize(new java.awt.Dimension(153, 26));
 
         jButton6.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
         jButton6.setText("<html><p style= text-align:\"center\";>TOTAL PENJUALAN<br/><b style= \"font-size:11\">Rp.1.000.000.000.000</b></p></html>");
-        jButton6.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton6.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton6.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton6.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton6.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton6.setPreferredSize(new java.awt.Dimension(153, 26));
 
         jButton7.setFont(new java.awt.Font("Arial", 0, 9)); // NOI18N
         jButton7.setText("<html><p style= text-align: \"center\";>BANYAK NOTA<br/><b style= \"font-size:11\">100 NOTA</b></p></html>");
-        jButton7.setMaximumSize(new java.awt.Dimension(189, 26));
-        jButton7.setMinimumSize(new java.awt.Dimension(189, 26));
-        jButton7.setPreferredSize(new java.awt.Dimension(189, 26));
+        jButton7.setMaximumSize(new java.awt.Dimension(153, 26));
+        jButton7.setMinimumSize(new java.awt.Dimension(153, 26));
+        jButton7.setPreferredSize(new java.awt.Dimension(153, 26));
+
+        jButton8.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
+        jButton8.setText("CETAK");
+        jButton8.setMaximumSize(new java.awt.Dimension(110, 61));
+        jButton8.setMinimumSize(new java.awt.Dimension(110, 61));
+        jButton8.setPreferredSize(new java.awt.Dimension(110, 61));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -527,7 +549,9 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(3, 3, 3)
                         .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(4, Short.MAX_VALUE))
+                .addGap(3, 3, 3)
+                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -543,6 +567,9 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
                     .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -599,6 +626,7 @@ public class _12_DftrNtRtrSup extends javax.swing.JPanel {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
     private javax.swing.JCheckBox jCheckBox10;
     private javax.swing.JCheckBox jCheckBox11;
     private javax.swing.JCheckBox jCheckBox6;

@@ -43,7 +43,7 @@ public class _17_RwytBrg extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(159, 153, 243));
         setMaximumSize(new java.awt.Dimension(600, 584));
         setMinimumSize(new java.awt.Dimension(600, 584));
         setPreferredSize(new java.awt.Dimension(600, 584));
@@ -79,13 +79,14 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(66, 129, 223));
+        jPanel2.setBackground(new java.awt.Color(159, 153, 243));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
         jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
         jPanel2.setName(""); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel3.setBackground(new java.awt.Color(66, 129, 223));
+        jPanel3.setBackground(new java.awt.Color(159, 153, 243));
         jPanel3.setMaximumSize(new java.awt.Dimension(580, 92));
         jPanel3.setMinimumSize(new java.awt.Dimension(580, 92));
         jPanel3.setPreferredSize(new java.awt.Dimension(580, 92));
@@ -94,12 +95,13 @@ public class _17_RwytBrg extends javax.swing.JPanel {
         jPanel5.setMinimumSize(new java.awt.Dimension(110, 20));
         jPanel5.setPreferredSize(new java.awt.Dimension(110, 20));
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(119, 158, 189));
         jLabel2.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("PILIHAN CARI");
         jLabel2.setMaximumSize(new java.awt.Dimension(110, 20));
         jLabel2.setMinimumSize(new java.awt.Dimension(110, 20));
+        jLabel2.setOpaque(true);
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 20));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -201,42 +203,70 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addGap(25, 25, 25))
         );
 
-        jPanel4.setBackground(new java.awt.Color(66, 129, 223));
+        jPanel4.setBackground(new java.awt.Color(159, 153, 243));
         jPanel4.setMaximumSize(new java.awt.Dimension(580, 421));
         jPanel4.setMinimumSize(new java.awt.Dimension(580, 421));
-        jPanel4.setPreferredSize(new java.awt.Dimension(580, 421));
 
-        jScrollPane1.setBackground(new java.awt.Color(66, 129, 223));
-        jScrollPane1.setMaximumSize(new java.awt.Dimension(580, 421));
-        jScrollPane1.setMinimumSize(new java.awt.Dimension(580, 421));
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(580, 421));
+        jScrollPane1.setBackground(new java.awt.Color(159, 153, 243));
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
-        jTable1.setBackground(new java.awt.Color(66, 129, 223));
+        jTable1.setBackground(new java.awt.Color(159, 153, 243));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "<html><p style= \"font-family:arial;font-size:11pt\"><b>TANGGAL</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>NO. NOTA</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>SUPPLIER</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>PELANGGAN</b></p></html>", "<html><p style=\"font-family:arial;font-size:11pt\"><b>NAMA BARANG</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>KONDISI</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>IMEI</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>HARGA</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>STATUS</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>KETERANGAN RUSAK</b></p></html> "
             }
         ));
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 421));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 421));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 421));
+        jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jScrollPane1.setViewportView(jTable1);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setMinWidth(100);
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(100);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(200);
+            jTable1.getColumnModel().getColumn(1).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(1).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(1).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(2).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(2).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(2).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(3).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(3).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(3).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(4).setMinWidth(200);
+            jTable1.getColumnModel().getColumn(4).setPreferredWidth(200);
+            jTable1.getColumnModel().getColumn(4).setMaxWidth(400);
+            jTable1.getColumnModel().getColumn(5).setMinWidth(60);
+            jTable1.getColumnModel().getColumn(5).setPreferredWidth(60);
+            jTable1.getColumnModel().getColumn(5).setMaxWidth(120);
+            jTable1.getColumnModel().getColumn(6).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(6).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(6).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(7).setMinWidth(65);
+            jTable1.getColumnModel().getColumn(7).setPreferredWidth(65);
+            jTable1.getColumnModel().getColumn(7).setMaxWidth(130);
+            jTable1.getColumnModel().getColumn(8).setMinWidth(60);
+            jTable1.getColumnModel().getColumn(8).setPreferredWidth(60);
+            jTable1.getColumnModel().getColumn(8).setMaxWidth(120);
+            jTable1.getColumnModel().getColumn(9).setMinWidth(200);
+            jTable1.getColumnModel().getColumn(9).setPreferredWidth(200);
+            jTable1.getColumnModel().getColumn(9).setMaxWidth(400);
+        }
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 421, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -256,7 +286,7 @@ public class _17_RwytBrg extends javax.swing.JPanel {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

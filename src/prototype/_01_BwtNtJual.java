@@ -24,8 +24,25 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         ImageIcon unscaled_icon_164x94 = new ImageIcon(".\\164x94.gif");
         ImageIcon unscaled_icon_290x24 = new ImageIcon(".\\290x24.gif");
         ImageIcon unscaled_icon_290x29 = new ImageIcon(".\\290x29.gif");
+        ImageIcon unscaled_icon_80x10 = new ImageIcon(".\\80x10.gif");
+        ImageIcon unscaled_icon_290x19 = new ImageIcon(".\\290x19.gif");
+        ImageIcon unscaled_icon_115x20 = new ImageIcon(".\\115x20.gif");
+        ImageIcon unscaled_icon_105x21 = new ImageIcon(".\\105x21.gif");
+        ImageIcon unscaled_icon_225x20 = new ImageIcon(".\\225x20.gif");
+        ImageIcon unscaled_icon_60x20 = new ImageIcon(".\\60x20.gif");
+        ImageIcon unscaled_icon_85x20 = new ImageIcon(".\\85x20.gif");
         
-        this.jLabel7.setIcon(unscaled_icon_290x29);
+        
+        
+        this.jLabel2.setIcon(unscaled_icon_290x19);
+        this.jLabel7.setIcon(unscaled_icon_115x20);
+        this.jLabel11.setIcon(unscaled_icon_105x21);
+        this.jLabel8.setIcon(unscaled_icon_225x20);
+        this.jLabel9.setIcon(unscaled_icon_60x20);
+        this.jLabel10.setIcon(unscaled_icon_85x20);
+        
+        
+        
     }
 
     /**
@@ -118,12 +135,12 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jTabbedPane1.setOpaque(true);
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel2.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel2.setBackground(new java.awt.Color(168, 214, 253));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(600, 533));
         jPanel2.setMinimumSize(new java.awt.Dimension(600, 533));
 
-        jPanel3.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel3.setBackground(new java.awt.Color(168, 214, 253));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel3.setMinimumSize(new java.awt.Dimension(290, 92));
@@ -190,7 +207,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                 .addGap(0, 0, 0))
         );
 
-        jPanel4.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel4.setBackground(new java.awt.Color(168, 214, 253));
         jPanel4.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel4.setMinimumSize(new java.awt.Dimension(290, 92));
         jPanel4.setPreferredSize(new java.awt.Dimension(290, 92));
@@ -199,6 +216,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel2.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("NAMA PELANGGAN");
+        jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel2.setMaximumSize(new java.awt.Dimension(290, 19));
         jLabel2.setMinimumSize(new java.awt.Dimension(290, 19));
         jLabel2.setOpaque(true);
@@ -261,7 +279,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel5.setBackground(new java.awt.Color(168, 214, 253));
         jPanel5.setMaximumSize(new java.awt.Dimension(580, 47));
         jPanel5.setMinimumSize(new java.awt.Dimension(580, 47));
         jPanel5.setPreferredSize(new java.awt.Dimension(580, 47));
@@ -289,6 +307,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel8.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("NAMA BARANG");
+        jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel8.setMaximumSize(new java.awt.Dimension(225, 20));
         jLabel8.setMinimumSize(new java.awt.Dimension(225, 20));
         jLabel8.setOpaque(true);
@@ -307,6 +326,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel9.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("UNIT");
+        jLabel9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel9.setMaximumSize(new java.awt.Dimension(60, 20));
         jLabel9.setMinimumSize(new java.awt.Dimension(60, 20));
         jLabel9.setOpaque(true);
@@ -324,7 +344,8 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel10.setBackground(new java.awt.Color(119, 158, 189));
         jLabel10.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("HARGA");
+        jLabel10.setText("HARGA UNIT");
+        jLabel10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel10.setMaximumSize(new java.awt.Dimension(85, 20));
         jLabel10.setMinimumSize(new java.awt.Dimension(85, 20));
         jLabel10.setOpaque(true);
@@ -341,6 +362,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("MASUKAN");
+        jButton1.setBorder(null);
         jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(87, 47));
         jButton1.setMinimumSize(new java.awt.Dimension(87, 47));
@@ -398,7 +420,9 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jPanel6.setMinimumSize(new java.awt.Dimension(580, 227));
         jPanel6.setPreferredSize(new java.awt.Dimension(580, 227));
 
-        jTable1.setBackground(new java.awt.Color(75, 190, 233));
+        jScrollPane2.setBackground(new java.awt.Color(168, 214, 253));
+
+        jTable1.setBackground(new java.awt.Color(168, 214, 253));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -411,28 +435,28 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
                 "<html><h style=\"font-family:arial;font-size:11pt\"><b>NO.</b></h></html>", "<html><p style=\"font-family:arial;font-size:11pt\"><b>NAMA BARANG</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>IMEI</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>HARGA</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>UNIT</b></p></html>", "<html><p style= \"font-family:arial;font-size:11pt\"><b>TOTAL</b></p></html>"
             }
         ));
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 227));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 227));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 227));
+        jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         jScrollPane2.setViewportView(jTable1);
-        jTable1.getColumnModel().getColumn(0).setMinWidth(25);
-        jTable1.getColumnModel().getColumn(0).setPreferredWidth(25);
-        jTable1.getColumnModel().getColumn(0).setMaxWidth(25);
-        jTable1.getColumnModel().getColumn(1).setMinWidth(220);
-        jTable1.getColumnModel().getColumn(1).setPreferredWidth(220);
-        jTable1.getColumnModel().getColumn(1).setMaxWidth(440);
-        jTable1.getColumnModel().getColumn(2).setMinWidth(110);
-        jTable1.getColumnModel().getColumn(2).setPreferredWidth(110);
-        jTable1.getColumnModel().getColumn(2).setMaxWidth(220);
-        jTable1.getColumnModel().getColumn(3).setMinWidth(65);
-        jTable1.getColumnModel().getColumn(3).setPreferredWidth(65);
-        jTable1.getColumnModel().getColumn(3).setMaxWidth(130);
-        jTable1.getColumnModel().getColumn(4).setMinWidth(40);
-        jTable1.getColumnModel().getColumn(4).setPreferredWidth(40);
-        jTable1.getColumnModel().getColumn(4).setMaxWidth(80);
-        jTable1.getColumnModel().getColumn(5).setMinWidth(80);
-        jTable1.getColumnModel().getColumn(5).setPreferredWidth(80);
-        jTable1.getColumnModel().getColumn(5).setMaxWidth(160);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setMinWidth(25);
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(25);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(25);
+            jTable1.getColumnModel().getColumn(1).setMinWidth(255);
+            jTable1.getColumnModel().getColumn(1).setPreferredWidth(255);
+            jTable1.getColumnModel().getColumn(1).setMaxWidth(510);
+            jTable1.getColumnModel().getColumn(2).setMinWidth(110);
+            jTable1.getColumnModel().getColumn(2).setPreferredWidth(110);
+            jTable1.getColumnModel().getColumn(2).setMaxWidth(220);
+            jTable1.getColumnModel().getColumn(3).setMinWidth(65);
+            jTable1.getColumnModel().getColumn(3).setPreferredWidth(65);
+            jTable1.getColumnModel().getColumn(3).setMaxWidth(130);
+            jTable1.getColumnModel().getColumn(4).setMinWidth(40);
+            jTable1.getColumnModel().getColumn(4).setPreferredWidth(40);
+            jTable1.getColumnModel().getColumn(4).setMaxWidth(80);
+            jTable1.getColumnModel().getColumn(5).setMinWidth(80);
+            jTable1.getColumnModel().getColumn(5).setPreferredWidth(80);
+            jTable1.getColumnModel().getColumn(5).setMaxWidth(160);
+        }
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -445,7 +469,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
             .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
         );
 
-        jPanel7.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel7.setBackground(new java.awt.Color(168, 214, 253));
         jPanel7.setMaximumSize(new java.awt.Dimension(290, 122));
         jPanel7.setMinimumSize(new java.awt.Dimension(290, 122));
         jPanel7.setPreferredSize(new java.awt.Dimension(290, 122));
@@ -466,7 +490,7 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
             .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 122, Short.MAX_VALUE)
         );
 
-        jPanel8.setBackground(new java.awt.Color(75, 190, 233));
+        jPanel8.setBackground(new java.awt.Color(168, 214, 253));
         jPanel8.setMaximumSize(new java.awt.Dimension(290, 122));
         jPanel8.setMinimumSize(new java.awt.Dimension(290, 122));
         jPanel8.setPreferredSize(new java.awt.Dimension(290, 122));
@@ -481,7 +505,8 @@ public class _01_BwtNtJual extends javax.swing.JPanel {
         jLabel11.setBackground(new java.awt.Color(119, 158, 189));
         jLabel11.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("DISKON  (RP.)");
+        jLabel11.setText("DISKON");
+        jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel11.setMaximumSize(new java.awt.Dimension(105, 21));
         jLabel11.setMinimumSize(new java.awt.Dimension(105, 21));
         jLabel11.setOpaque(true);

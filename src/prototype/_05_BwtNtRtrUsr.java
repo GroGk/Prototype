@@ -103,19 +103,19 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.setBackground(new java.awt.Color(240, 120, 83));
-        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        jTabbedPane1.setBackground(new java.awt.Color(168, 214, 253));
+        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTabbedPane1.setMaximumSize(new java.awt.Dimension(600, 533));
         jTabbedPane1.setMinimumSize(new java.awt.Dimension(600, 533));
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel3.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel3.setBackground(new java.awt.Color(168, 214, 253));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel3.setMaximumSize(new java.awt.Dimension(600, 533));
         jPanel3.setMinimumSize(new java.awt.Dimension(600, 533));
         jPanel3.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel2.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel2.setBackground(new java.awt.Color(168, 214, 253));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setMaximumSize(new java.awt.Dimension(290, 46));
         jPanel2.setMinimumSize(new java.awt.Dimension(290, 46));
@@ -156,7 +156,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel4.setBackground(new java.awt.Color(168, 214, 253));
         jPanel4.setMaximumSize(new java.awt.Dimension(290, 43));
         jPanel4.setMinimumSize(new java.awt.Dimension(290, 43));
         jPanel4.setPreferredSize(new java.awt.Dimension(290, 43));
@@ -195,7 +195,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel5.setBackground(new java.awt.Color(168, 214, 253));
         jPanel5.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel5.setMinimumSize(new java.awt.Dimension(290, 92));
         jPanel5.setPreferredSize(new java.awt.Dimension(290, 92));
@@ -215,7 +215,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jComboBox1.setMinimumSize(new java.awt.Dimension(290, 24));
         jComboBox1.setPreferredSize(new java.awt.Dimension(290, 24));
 
-        jPanel10.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel10.setBackground(new java.awt.Color(168, 214, 253));
         jPanel10.setMaximumSize(new java.awt.Dimension(290, 49));
         jPanel10.setMinimumSize(new java.awt.Dimension(290, 49));
         jPanel10.setPreferredSize(new java.awt.Dimension(290, 49));
@@ -267,7 +267,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel6.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel6.setBackground(new java.awt.Color(168, 214, 253));
         jPanel6.setMaximumSize(new java.awt.Dimension(580, 82));
         jPanel6.setMinimumSize(new java.awt.Dimension(580, 82));
         jPanel6.setPreferredSize(new java.awt.Dimension(580, 82));
@@ -322,14 +322,15 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jLabel8.setBackground(new java.awt.Color(119, 158, 189));
         jLabel8.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("HARGA SATUAN");
+        jLabel8.setText("HARGA UNIT");
         jLabel8.setMaximumSize(new java.awt.Dimension(85, 20));
         jLabel8.setMinimumSize(new java.awt.Dimension(85, 20));
         jLabel8.setOpaque(true);
         jLabel8.setPreferredSize(new java.awt.Dimension(85, 20));
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jLabel9.setText("RP.xxx.xxx.xxx");
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setText("xxx.xxx.xxx");
         jLabel9.setMaximumSize(new java.awt.Dimension(85, 21));
         jLabel9.setMinimumSize(new java.awt.Dimension(85, 21));
         jLabel9.setPreferredSize(new java.awt.Dimension(85, 21));
@@ -342,6 +343,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("MASUKAN");
+        jButton1.setBorder(null);
         jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(87, 82));
         jButton1.setMinimumSize(new java.awt.Dimension(87, 82));
@@ -396,16 +398,16 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jPanel7.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel7.setBackground(new java.awt.Color(168, 214, 253));
         jPanel7.setMaximumSize(new java.awt.Dimension(580, 213));
         jPanel7.setMinimumSize(new java.awt.Dimension(580, 213));
         jPanel7.setPreferredSize(new java.awt.Dimension(580, 213));
 
-        jScrollPane2.setMaximumSize(new java.awt.Dimension(580, 213));
-        jScrollPane2.setMinimumSize(new java.awt.Dimension(580, 213));
-        jScrollPane2.setPreferredSize(new java.awt.Dimension(580, 213));
+        jScrollPane2.setBackground(new java.awt.Color(168, 214, 253));
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
-        jTable1.setBackground(new java.awt.Color(240, 120, 83));
+        jTable1.setBackground(new java.awt.Color(168, 214, 253));
         jTable1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -419,9 +421,6 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             }
         ));
         jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        jTable1.setMaximumSize(new java.awt.Dimension(580, 213));
-        jTable1.setMinimumSize(new java.awt.Dimension(580, 213));
-        jTable1.setPreferredSize(new java.awt.Dimension(580, 213));
         jScrollPane2.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
             jTable1.getColumnModel().getColumn(0).setMinWidth(25);
@@ -457,14 +456,14 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 580, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 213, Short.MAX_VALUE)
         );
 
-        jPanel8.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel8.setBackground(new java.awt.Color(168, 214, 253));
         jPanel8.setMaximumSize(new java.awt.Dimension(290, 99));
         jPanel8.setMinimumSize(new java.awt.Dimension(290, 99));
         jPanel8.setPreferredSize(new java.awt.Dimension(290, 99));
@@ -493,7 +492,7 @@ public class _05_BwtNtRtrUsr extends javax.swing.JPanel {
             .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jPanel9.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel9.setBackground(new java.awt.Color(168, 214, 253));
         jPanel9.setMaximumSize(new java.awt.Dimension(290, 99));
         jPanel9.setMinimumSize(new java.awt.Dimension(290, 99));
         jPanel9.setPreferredSize(new java.awt.Dimension(290, 99));

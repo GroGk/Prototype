@@ -37,11 +37,11 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel6 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox();
-        jPanel10 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -124,26 +124,25 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.setBackground(new java.awt.Color(255, 153, 0));
-        jTabbedPane2.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        jTabbedPane2.setBackground(new java.awt.Color(168, 214, 253));
         jTabbedPane2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTabbedPane2.setMaximumSize(new java.awt.Dimension(600, 533));
         jTabbedPane2.setMinimumSize(new java.awt.Dimension(600, 533));
         jTabbedPane2.setPreferredSize(new java.awt.Dimension(600, 533));
 
-        jPanel2.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel2.setBackground(new java.awt.Color(168, 214, 253));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel2.setMaximumSize(new java.awt.Dimension(1200, 509));
         jPanel2.setMinimumSize(new java.awt.Dimension(1200, 509));
         jPanel2.setPreferredSize(new java.awt.Dimension(1200, 509));
 
-        jPanel3.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel3.setBackground(new java.awt.Color(168, 214, 253));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setMaximumSize(new java.awt.Dimension(290, 46));
         jPanel3.setMinimumSize(new java.awt.Dimension(290, 46));
         jPanel3.setPreferredSize(new java.awt.Dimension(290, 46));
 
-        jLabel2.setBackground(new java.awt.Color(255, 153, 0));
+        jLabel2.setBackground(new java.awt.Color(75, 190, 233));
         jLabel2.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("TKR311220140001");
@@ -152,7 +151,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel2.setMinimumSize(new java.awt.Dimension(285, 25));
         jLabel2.setPreferredSize(new java.awt.Dimension(285, 25));
 
-        jLabel3.setBackground(new java.awt.Color(255, 153, 0));
+        jLabel3.setBackground(new java.awt.Color(75, 190, 233));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("31 DESEMBER 2014");
@@ -181,7 +180,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addGap(0, 0, 0))
         );
 
-        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        jTabbedPane1.setBackground(new java.awt.Color(75, 190, 233));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTabbedPane1.setMaximumSize(new java.awt.Dimension(580, 298));
         jTabbedPane1.setMinimumSize(new java.awt.Dimension(580, 298));
@@ -192,6 +191,37 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jPanel6.setMaximumSize(new java.awt.Dimension(567, 40));
         jPanel6.setMinimumSize(new java.awt.Dimension(567, 40));
         jPanel6.setPreferredSize(new java.awt.Dimension(567, 40));
+
+        jPanel10.setBackground(new java.awt.Color(240, 120, 83));
+        jPanel10.setMaximumSize(new java.awt.Dimension(278, 43));
+        jPanel10.setMinimumSize(new java.awt.Dimension(278, 43));
+        jPanel10.setPreferredSize(new java.awt.Dimension(278, 43));
+
+        jLabel6.setBackground(new java.awt.Color(240, 120, 83));
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("RTR301220140001");
+        jLabel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jLabel6.setMaximumSize(new java.awt.Dimension(271, 35));
+        jLabel6.setMinimumSize(new java.awt.Dimension(271, 35));
+        jLabel6.setPreferredSize(new java.awt.Dimension(271, 35));
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addGap(4, 4, 4)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addGap(4, 4, 4)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         jPanel9.setBackground(new java.awt.Color(240, 120, 83));
         jPanel9.setMaximumSize(new java.awt.Dimension(279, 43));
@@ -231,37 +261,6 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel10.setBackground(new java.awt.Color(240, 120, 83));
-        jPanel10.setMaximumSize(new java.awt.Dimension(278, 43));
-        jPanel10.setMinimumSize(new java.awt.Dimension(278, 43));
-        jPanel10.setPreferredSize(new java.awt.Dimension(278, 43));
-
-        jLabel6.setBackground(new java.awt.Color(240, 120, 83));
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("RTR301220140001");
-        jLabel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jLabel6.setMaximumSize(new java.awt.Dimension(271, 35));
-        jLabel6.setMinimumSize(new java.awt.Dimension(271, 35));
-        jLabel6.setPreferredSize(new java.awt.Dimension(271, 35));
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGap(4, 4, 4)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGap(4, 4, 4)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
         jPanel11.setBackground(new java.awt.Color(240, 120, 83));
         jPanel11.setMaximumSize(new java.awt.Dimension(557, 82));
         jPanel11.setMinimumSize(new java.awt.Dimension(557, 82));
@@ -297,20 +296,21 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel10.setBackground(new java.awt.Color(119, 158, 189));
         jLabel10.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("HARGA");
+        jLabel10.setText("HARGA UNIT");
         jLabel10.setMaximumSize(new java.awt.Dimension(82, 20));
         jLabel10.setMinimumSize(new java.awt.Dimension(82, 20));
         jLabel10.setOpaque(true);
         jLabel10.setPreferredSize(new java.awt.Dimension(82, 20));
 
-        jTextField5.setBackground(new java.awt.Color(119, 158, 189));
         jTextField5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jTextField5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "KETERANGAN RUSAK", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Arial", 0, 11))); // NOI18N
         jTextField5.setMaximumSize(new java.awt.Dimension(471, 33));
         jTextField5.setMinimumSize(new java.awt.Dimension(471, 33));
         jTextField5.setPreferredSize(new java.awt.Dimension(471, 33));
 
+        jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("MASUKAN");
+        jButton1.setBorder(null);
         jButton1.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton1.setMaximumSize(new java.awt.Dimension(84, 82));
         jButton1.setMinimumSize(new java.awt.Dimension(84, 82));
@@ -334,7 +334,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel16.setBackground(new java.awt.Color(240, 120, 83));
         jLabel16.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("RP. xxx.xxx.xxx");
+        jLabel16.setText("xxx.xxx.xxx");
         jLabel16.setMaximumSize(new java.awt.Dimension(82, 21));
         jLabel16.setMinimumSize(new java.awt.Dimension(82, 21));
         jLabel16.setPreferredSize(new java.awt.Dimension(82, 21));
@@ -416,6 +416,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
             }
         ));
         jTable3.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        jTable3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane4.setViewportView(jTable3);
         if (jTable3.getColumnModel().getColumnCount() > 0) {
             jTable3.getColumnModel().getColumn(0).setMinWidth(25);
@@ -457,9 +458,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jScrollPane4)
         );
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -467,15 +466,14 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, 0)
-                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -487,8 +485,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addGap(0, 0, 0)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, 144, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>RTR301220140001</b></p></html>", jPanel6);
@@ -587,7 +584,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jLabel15.setBackground(new java.awt.Color(119, 158, 189));
         jLabel15.setFont(new java.awt.Font("Arial", 2, 11)); // NOI18N
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("HARGA");
+        jLabel15.setText("HARGA UNIT");
         jLabel15.setMaximumSize(new java.awt.Dimension(82, 20));
         jLabel15.setMinimumSize(new java.awt.Dimension(82, 20));
         jLabel15.setOpaque(true);
@@ -604,6 +601,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
 
         jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton2.setText("MASUKAN");
+        jButton2.setBorder(null);
         jButton2.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jButton2.setMaximumSize(new java.awt.Dimension(83, 47));
         jButton2.setMinimumSize(new java.awt.Dimension(83, 47));
@@ -677,6 +675,7 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
             }
         ));
         jTable2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        jTable2.setName(""); // NOI18N
         jScrollPane3.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
             jTable2.getColumnModel().getColumn(0).setMinWidth(25);
@@ -703,13 +702,14 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE, Short.MAX_VALUE)
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -732,13 +732,12 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addGap(0, 0, 0)
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(82, Short.MAX_VALUE))
+                .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 204, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("<html><p style= \"text-align:center; font-size:13\";><b>INV301220140001</b></p></html>", jPanel7);
 
-        jPanel5.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel5.setBackground(new java.awt.Color(168, 214, 253));
         jPanel5.setMaximumSize(new java.awt.Dimension(290, 92));
         jPanel5.setMinimumSize(new java.awt.Dimension(290, 92));
         jPanel5.setPreferredSize(new java.awt.Dimension(290, 92));
@@ -805,12 +804,12 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(51, 255, 51));
+        jPanel4.setBackground(new java.awt.Color(168, 214, 253));
         jPanel4.setMaximumSize(new java.awt.Dimension(580, 99));
         jPanel4.setMinimumSize(new java.awt.Dimension(580, 99));
         jPanel4.setPreferredSize(new java.awt.Dimension(580, 99));
 
-        jPanel16.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel16.setBackground(new java.awt.Color(75, 190, 233));
         jPanel16.setMaximumSize(new java.awt.Dimension(290, 99));
         jPanel16.setMinimumSize(new java.awt.Dimension(290, 99));
         jPanel16.setPreferredSize(new java.awt.Dimension(290, 99));
@@ -842,13 +841,14 @@ public class _03_BwtNtTukar extends javax.swing.JPanel {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel17.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel17.setBackground(new java.awt.Color(75, 190, 233));
         jPanel17.setMaximumSize(new java.awt.Dimension(290, 99));
         jPanel17.setMinimumSize(new java.awt.Dimension(290, 99));
         jPanel17.setPreferredSize(new java.awt.Dimension(290, 99));
 
         jButton3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton3.setText("HAPUS PILIHAN");
+        jButton3.setEnabled(false);
         jButton3.setMaximumSize(new java.awt.Dimension(283, 22));
         jButton3.setMinimumSize(new java.awt.Dimension(283, 22));
         jButton3.setPreferredSize(new java.awt.Dimension(283, 22));

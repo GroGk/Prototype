@@ -19,6 +19,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -83,35 +84,34 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_01_BwtNtJual1" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="_00_Tutorial1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_18_StokOpname1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_17_RwytBrg1" min="-2" max="-2" attributes="0"/>
-                  <Component id="_16_EditDftrBrg2" min="-2" max="-2" attributes="0"/>
-                  <Component id="_15_BwtBrgBr2" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                      <Component id="_12_DftrNtRtrSup1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_13_BwtSuplBr1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_11_BwtNtRtrSupl1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_10_DftrNtBl1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_09_BwtNtBl1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_08_EditDftrPlgn1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_07_BwtPlgnBr1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_06_DftrNtRtrUsr1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_05_BwtNtRtr1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_04_DftrNtTukar1" min="-2" max="-2" attributes="0"/>
-                      <Component id="_03_BwtNtTukar2" min="-2" max="-2" attributes="0"/>
-                      <Component id="_02_DftrNtJual1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="_01_BwtNtJual1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="_00_Tutorial1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_18_StokOpname1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_17_RwytBrg1" min="-2" max="-2" attributes="0"/>
+                      <Component id="_16_EditDftrBrg2" min="-2" max="-2" attributes="0"/>
+                      <Component id="_15_BwtBrgBr2" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="_12_DftrNtRtrSup1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_13_BwtSuplBr1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_11_BwtNtRtrSupl1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_10_DftrNtBl1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_09_BwtNtBl1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_08_EditDftrPlgn1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_07_BwtPlgnBr1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_06_DftrNtRtrUsr1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_05_BwtNtRtr1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_04_DftrNtTukar1" min="-2" max="-2" attributes="0"/>
+                          <Component id="_03_BwtNtTukar2" min="-2" max="-2" attributes="0"/>
+                          <Component id="_02_DftrNtJual1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="_14_EditDftrSupl1" alignment="1" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="_14_EditDftrSupl1" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -206,9 +206,9 @@
                               <Component id="jButton6" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <Component id="TB_01_BwtNtJl_jB_01x01" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                              <Component id="TB_02_jB_DftrNtJl_01x01" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -221,8 +221,8 @@
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          <Component id="TB_01_BwtNtJl_jB_01x01" min="-2" max="-2" attributes="0"/>
+                          <Component id="TB_02_jB_DftrNtJl_01x01" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -265,7 +265,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="TB_01_BwtNtJl_jB_01x01">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ca" green="ca" red="ca" type="rgb"/>
@@ -273,7 +273,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;PENJUALAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -285,7 +287,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TB_01_BwtNtJl_jB_01x01ActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButton2">
@@ -296,7 +298,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;PENUKARAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -319,7 +323,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;RETUR USER&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -342,7 +348,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT&lt;br/&gt;PELANGGAN BARU&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -357,7 +365,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton5">
+            <Component class="javax.swing.JButton" name="TB_02_jB_DftrNtJl_01x01">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ca" green="ca" red="ca" type="rgb"/>
@@ -365,7 +373,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;PENJUALAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -377,7 +387,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TB_02_jB_DftrNtJl_01x01ActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButton6">
@@ -388,7 +398,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;PENUKARAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -411,7 +423,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;RETUR USER&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[2, 0, 2, 0]"/>
                 </Property>
@@ -437,7 +451,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR&lt;br/&gt;PELANGGAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -550,7 +566,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;PEMBELIAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -573,7 +591,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT NOTA&lt;br/&gt;RETUR SUPPLIER&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -596,7 +616,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT&lt;br/&gt;SUPPLIER BARU&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -619,7 +641,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;PEMBELIAN&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -642,7 +666,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR NOTA&lt;br/&gt;RETUR SUPPLIER&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[2, -12, 2, -12]"/>
                 </Property>
@@ -668,7 +694,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR&lt;br/&gt;SUPPLIER&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -771,7 +799,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;BUAT&lt;br/&gt;BARANG BARU&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -794,7 +824,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;RIWAYAT&lt;br/&gt;BARANG&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -817,7 +849,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;DAFTAR&lt;br/&gt;BARANG&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>
@@ -840,7 +874,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="11" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p style= text-align:&quot;center&quot;;&gt;STOK&lt;br/&gt;OPNAM&lt;/p&gt;&lt;/html&gt;"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[92, 47]"/>
                 </Property>

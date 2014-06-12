@@ -17,6 +17,161 @@ public class Main_Frame extends javax.swing.JFrame {
     public Main_Frame() {
         initComponents();
         
+        //ImageIcon _00_button_up = new ImageIcon(".\\00-button-up.png");
+        //ImageIcon _00_button_down = new ImageIcon(".\\00-button-down.png");
+        //ImageIcon _00_button_roll = new ImageIcon(".\\00-button-roll.png");
+        
+        ImageIcon _01_button_up = new ImageIcon(".\\01-button-up.png");
+        ImageIcon _01_button_down = new ImageIcon(".\\01-button-down.png");
+        ImageIcon _01_button_roll = new ImageIcon(".\\01-button-roll.png");
+        ImageIcon _01_button_selected = new ImageIcon(".\\01-button-selected.gif");
+        
+        ImageIcon _02_button_up = new ImageIcon(".\\02-button-up.png");
+        ImageIcon _02_button_down = new ImageIcon(".\\02-button-down.png");
+        ImageIcon _02_button_roll = new ImageIcon(".\\02-button-roll.png");
+        
+        ImageIcon _03_button_up = new ImageIcon(".\\03-button-up.png");
+        ImageIcon _03_button_down = new ImageIcon(".\\03-button-down.png");
+        ImageIcon _03_button_roll = new ImageIcon(".\\03-button-roll.png");
+        
+        ImageIcon _04_button_up = new ImageIcon(".\\04-button-up.png");
+        ImageIcon _04_button_down = new ImageIcon(".\\04-button-down.png");
+        ImageIcon _04_button_roll = new ImageIcon(".\\04-button-roll.png");
+        
+        ImageIcon _05_button_up = new ImageIcon(".\\05-button-up.png");
+        ImageIcon _05_button_down = new ImageIcon(".\\05-button-down.png");
+        ImageIcon _05_button_roll = new ImageIcon(".\\05-button-roll.png");
+        
+        ImageIcon _06_button_up = new ImageIcon(".\\06-button-up.png");
+        ImageIcon _06_button_down = new ImageIcon(".\\06-button-down.png");
+        ImageIcon _06_button_roll = new ImageIcon(".\\06-button-roll.png");
+        
+        ImageIcon _07_button_up = new ImageIcon(".\\07-button-up.png");
+        ImageIcon _07_button_down = new ImageIcon(".\\07-button-down.png");
+        ImageIcon _07_button_roll = new ImageIcon(".\\07-button-roll.png");
+        
+        ImageIcon _08_button_up = new ImageIcon(".\\08-button-up.png");
+        ImageIcon _08_button_down = new ImageIcon(".\\08-button-down.png");
+        ImageIcon _08_button_roll = new ImageIcon(".\\08-button-roll.png");
+        
+        ImageIcon _09_button_up = new ImageIcon(".\\09-button-up.png");
+        ImageIcon _09_button_down = new ImageIcon(".\\09-button-down.png");
+        ImageIcon _09_button_roll = new ImageIcon(".\\09-button-roll.png");
+        
+        ImageIcon _10_button_up = new ImageIcon(".\\10-button-up.png");
+        ImageIcon _10_button_down = new ImageIcon(".\\10-button-down.png");
+        ImageIcon _10_button_roll = new ImageIcon(".\\10-button-roll.png");
+        
+        ImageIcon _11_button_up = new ImageIcon(".\\11-button-up.png");
+        ImageIcon _11_button_down = new ImageIcon(".\\11-button-down.png");
+        ImageIcon _11_button_roll = new ImageIcon(".\\11-button-roll.png");
+        
+        ImageIcon _12_button_up = new ImageIcon(".\\12-button-up.png");
+        ImageIcon _12_button_down = new ImageIcon(".\\12-button-down.png");
+        ImageIcon _12_button_roll = new ImageIcon(".\\12-button-roll.png");
+        
+        ImageIcon _13_button_up = new ImageIcon(".\\13-button-up.png");
+        ImageIcon _13_button_down = new ImageIcon(".\\13-button-down.png");
+        ImageIcon _13_button_roll = new ImageIcon(".\\13-button-roll.png");
+        
+        ImageIcon _14_button_up = new ImageIcon(".\\14-button-up.png");
+        ImageIcon _14_button_down = new ImageIcon(".\\14-button-down.png");
+        ImageIcon _14_button_roll = new ImageIcon(".\\14-button-roll.png");
+        
+        ImageIcon _15_button_up = new ImageIcon(".\\15-button-up.png");
+        ImageIcon _15_button_down = new ImageIcon(".\\15-button-down.png");
+        ImageIcon _15_button_roll = new ImageIcon(".\\15-button-roll.png");
+        
+        ImageIcon _16_button_up = new ImageIcon(".\\16-button-up.png");
+        ImageIcon _16_button_down = new ImageIcon(".\\16-button-down.png");
+        ImageIcon _16_button_roll = new ImageIcon(".\\16-button-roll.png");
+        
+        ImageIcon _17_button_up = new ImageIcon(".\\17-button-up.png");
+        ImageIcon _17_button_down = new ImageIcon(".\\17-button-down.png");
+        ImageIcon _17_button_roll = new ImageIcon(".\\17-button-roll.png");
+        
+        ImageIcon _18_button_up = new ImageIcon(".\\18-button-up.png");
+        ImageIcon _18_button_down = new ImageIcon(".\\18-button-down.png");
+        ImageIcon _18_button_roll = new ImageIcon(".\\18-button-roll.png");
+        
+                
+        
+        
+        
+        this.TB_01_BwtNtJl_jB_01x01.setIcon(_01_button_up);
+        this.TB_01_BwtNtJl_jB_01x01.setPressedIcon(_01_button_down);
+        this.TB_01_BwtNtJl_jB_01x01.setRolloverIcon(_01_button_roll);
+        this.TB_01_BwtNtJl_jB_01x01.setSelectedIcon(_01_button_selected);
+        
+        this.TB_02_jB_DftrNtJl_01x01.setIcon(_02_button_up);
+        this.TB_02_jB_DftrNtJl_01x01.setPressedIcon(_02_button_down);
+        this.TB_02_jB_DftrNtJl_01x01.setRolloverIcon(_02_button_roll);
+        
+        this.jButton2.setIcon(_03_button_up);
+        this.jButton2.setPressedIcon(_03_button_down);
+        this.jButton2.setRolloverIcon(_03_button_roll);
+        
+        this.jButton6.setIcon(_04_button_up);
+        this.jButton6.setPressedIcon(_04_button_down);
+        this.jButton6.setRolloverIcon(_04_button_roll);
+        
+        this.jButton3.setIcon(_05_button_up);
+        this.jButton3.setPressedIcon(_05_button_down);
+        this.jButton3.setRolloverIcon(_05_button_roll);
+        
+        this.jButton7.setIcon(_06_button_up);
+        this.jButton7.setPressedIcon(_06_button_down);
+        this.jButton7.setRolloverIcon(_06_button_roll);
+        
+        this.jButton4.setIcon(_07_button_up);
+        this.jButton4.setPressedIcon(_07_button_down);
+        this.jButton4.setRolloverIcon(_07_button_roll);
+        
+        this.jButton8.setIcon(_08_button_up);
+        this.jButton8.setPressedIcon(_08_button_down);
+        this.jButton8.setRolloverIcon(_08_button_roll);
+        
+        this.jButton9.setIcon(_09_button_up);
+        this.jButton9.setPressedIcon(_09_button_down);
+        this.jButton9.setRolloverIcon(_09_button_roll);
+        
+        this.jButton12.setIcon(_10_button_up);
+        this.jButton12.setPressedIcon(_10_button_down);
+        this.jButton12.setRolloverIcon(_10_button_roll);
+        
+        this.jButton10.setIcon(_11_button_up);
+        this.jButton10.setPressedIcon(_11_button_down);
+        this.jButton10.setRolloverIcon(_11_button_roll);
+        
+        this.jButton13.setIcon(_12_button_up);
+        this.jButton13.setPressedIcon(_12_button_down);
+        this.jButton13.setRolloverIcon(_12_button_roll);
+        
+        this.jButton11.setIcon(_13_button_up);
+        this.jButton11.setPressedIcon(_13_button_down);
+        this.jButton11.setRolloverIcon(_13_button_roll);
+        
+        this.jButton14.setIcon(_14_button_up);
+        this.jButton14.setPressedIcon(_14_button_down);
+        this.jButton14.setRolloverIcon(_14_button_roll);
+        
+        this.jButton15.setIcon(_15_button_up);
+        this.jButton15.setPressedIcon(_15_button_down);
+        this.jButton15.setRolloverIcon(_15_button_roll);
+        
+        this.jButton17.setIcon(_16_button_up);
+        this.jButton17.setPressedIcon(_16_button_down);
+        this.jButton17.setRolloverIcon(_16_button_roll);
+        
+        this.jButton16.setIcon(_17_button_up);
+        this.jButton16.setPressedIcon(_17_button_down);
+        this.jButton16.setRolloverIcon(_17_button_roll);
+        
+        this.jButton18.setIcon(_18_button_up);
+        this.jButton18.setPressedIcon(_18_button_down);
+        this.jButton18.setRolloverIcon(_18_button_roll);
+        
+        
         int mpp = 0;
         Main_Panels[mpp++] = this._00_Tutorial1;
         Main_Panels[mpp++] = this._01_BwtNtJual1;
@@ -61,11 +216,11 @@ public class Main_Frame extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        TB_01_BwtNtJl_jB_01x01 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        TB_02_jB_DftrNtJl_01x01 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
@@ -130,21 +285,21 @@ public class Main_Frame extends javax.swing.JFrame {
         jLabel1.setMinimumSize(new java.awt.Dimension(200, 20));
         jLabel1.setPreferredSize(new java.awt.Dimension(200, 20));
 
-        jButton1.setBackground(new java.awt.Color(202, 202, 202));
-        jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton1.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>PENJUALAN</p></html>");
-        jButton1.setMaximumSize(new java.awt.Dimension(92, 47));
-        jButton1.setMinimumSize(new java.awt.Dimension(92, 47));
-        jButton1.setPreferredSize(new java.awt.Dimension(92, 47));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        TB_01_BwtNtJl_jB_01x01.setBackground(new java.awt.Color(202, 202, 202));
+        TB_01_BwtNtJl_jB_01x01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        TB_01_BwtNtJl_jB_01x01.setBorder(null);
+        TB_01_BwtNtJl_jB_01x01.setMaximumSize(new java.awt.Dimension(92, 47));
+        TB_01_BwtNtJl_jB_01x01.setMinimumSize(new java.awt.Dimension(92, 47));
+        TB_01_BwtNtJl_jB_01x01.setPreferredSize(new java.awt.Dimension(92, 47));
+        TB_01_BwtNtJl_jB_01x01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                TB_01_BwtNtJl_jB_01x01ActionPerformed(evt);
             }
         });
 
         jButton2.setBackground(new java.awt.Color(202, 202, 202));
         jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton2.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>PENUKARAN</p></html>");
+        jButton2.setBorder(null);
         jButton2.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton2.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton2.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -156,7 +311,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(202, 202, 202));
         jButton3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton3.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>RETUR USER</p></html>");
+        jButton3.setBorder(null);
         jButton3.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton3.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton3.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -168,7 +323,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton4.setBackground(new java.awt.Color(202, 202, 202));
         jButton4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton4.setText("<html><p style= text-align:\"center\";>BUAT<br/>PELANGGAN BARU</p></html>");
+        jButton4.setBorder(null);
         jButton4.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton4.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton4.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -178,21 +333,21 @@ public class Main_Frame extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(202, 202, 202));
-        jButton5.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton5.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>PENJUALAN</p></html>");
-        jButton5.setMaximumSize(new java.awt.Dimension(92, 47));
-        jButton5.setMinimumSize(new java.awt.Dimension(92, 47));
-        jButton5.setPreferredSize(new java.awt.Dimension(92, 47));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        TB_02_jB_DftrNtJl_01x01.setBackground(new java.awt.Color(202, 202, 202));
+        TB_02_jB_DftrNtJl_01x01.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        TB_02_jB_DftrNtJl_01x01.setBorder(null);
+        TB_02_jB_DftrNtJl_01x01.setMaximumSize(new java.awt.Dimension(92, 47));
+        TB_02_jB_DftrNtJl_01x01.setMinimumSize(new java.awt.Dimension(92, 47));
+        TB_02_jB_DftrNtJl_01x01.setPreferredSize(new java.awt.Dimension(92, 47));
+        TB_02_jB_DftrNtJl_01x01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                TB_02_jB_DftrNtJl_01x01ActionPerformed(evt);
             }
         });
 
         jButton6.setBackground(new java.awt.Color(202, 202, 202));
         jButton6.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton6.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>PENUKARAN</p></html>");
+        jButton6.setBorder(null);
         jButton6.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton6.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton6.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -204,7 +359,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton7.setBackground(new java.awt.Color(202, 202, 202));
         jButton7.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton7.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>RETUR USER</p></html>");
+        jButton7.setBorder(null);
         jButton7.setMargin(new java.awt.Insets(2, 0, 2, 0));
         jButton7.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton7.setMinimumSize(new java.awt.Dimension(92, 47));
@@ -217,7 +372,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton8.setBackground(new java.awt.Color(202, 202, 202));
         jButton8.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton8.setText("<html><p style= text-align:\"center\";>DAFTAR<br/>PELANGGAN</p></html>");
+        jButton8.setBorder(null);
         jButton8.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton8.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton8.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -248,9 +403,9 @@ public class Main_Frame extends javax.swing.JFrame {
                         .addGap(5, 5, 5)
                         .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(TB_01_BwtNtJl_jB_01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(5, 5, 5)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(TB_02_jB_DftrNtJl_01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -259,8 +414,8 @@ public class Main_Frame extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(5, 5, 5)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TB_01_BwtNtJl_jB_01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TB_02_jB_DftrNtJl_01x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(5, 5, 5)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -290,7 +445,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton9.setBackground(new java.awt.Color(202, 202, 202));
         jButton9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton9.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>PEMBELIAN</p></html>");
+        jButton9.setBorder(null);
         jButton9.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton9.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton9.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -302,7 +457,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton10.setBackground(new java.awt.Color(202, 202, 202));
         jButton10.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton10.setText("<html><p style= text-align:\"center\";>BUAT NOTA<br/>RETUR SUPPLIER</p></html>");
+        jButton10.setBorder(null);
         jButton10.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton10.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton10.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -314,7 +469,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton11.setBackground(new java.awt.Color(202, 202, 202));
         jButton11.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton11.setText("<html><p style= text-align:\"center\";>BUAT<br/>SUPPLIER BARU</p></html>");
+        jButton11.setBorder(null);
         jButton11.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton11.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton11.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -326,7 +481,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton12.setBackground(new java.awt.Color(202, 202, 202));
         jButton12.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton12.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>PEMBELIAN</p></html>");
+        jButton12.setBorder(null);
         jButton12.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton12.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton12.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -338,7 +493,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton13.setBackground(new java.awt.Color(202, 202, 202));
         jButton13.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton13.setText("<html><p style= text-align:\"center\";>DAFTAR NOTA<br/>RETUR SUPPLIER</p></html>");
+        jButton13.setBorder(null);
         jButton13.setMargin(new java.awt.Insets(2, -12, 2, -12));
         jButton13.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton13.setMinimumSize(new java.awt.Dimension(92, 47));
@@ -351,7 +506,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton14.setBackground(new java.awt.Color(202, 202, 202));
         jButton14.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton14.setText("<html><p style= text-align:\"center\";>DAFTAR<br/>SUPPLIER</p></html>");
+        jButton14.setBorder(null);
         jButton14.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton14.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton14.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -416,7 +571,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton15.setBackground(new java.awt.Color(202, 202, 202));
         jButton15.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton15.setText("<html><p style= text-align:\"center\";>BUAT<br/>BARANG BARU</p></html>");
+        jButton15.setBorder(null);
         jButton15.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton15.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton15.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -428,7 +583,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton16.setBackground(new java.awt.Color(202, 202, 202));
         jButton16.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton16.setText("<html><p style= text-align:\"center\";>RIWAYAT<br/>BARANG</p></html>");
+        jButton16.setBorder(null);
         jButton16.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton16.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton16.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -440,7 +595,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton17.setBackground(new java.awt.Color(202, 202, 202));
         jButton17.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton17.setText("<html><p style= text-align:\"center\";>DAFTAR<br/>BARANG</p></html>");
+        jButton17.setBorder(null);
         jButton17.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton17.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton17.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -452,7 +607,7 @@ public class Main_Frame extends javax.swing.JFrame {
 
         jButton18.setBackground(new java.awt.Color(202, 202, 202));
         jButton18.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jButton18.setText("<html><p style= text-align:\"center\";>STOK<br/>OPNAM</p></html>");
+        jButton18.setBorder(null);
         jButton18.setMaximumSize(new java.awt.Dimension(92, 47));
         jButton18.setMinimumSize(new java.awt.Dimension(92, 47));
         jButton18.setPreferredSize(new java.awt.Dimension(92, 47));
@@ -605,44 +760,43 @@ public class Main_Frame extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_01_BwtNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(_00_Tutorial1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_18_StokOpname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_17_RwytBrg1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_16_EditDftrBrg2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(_15_BwtBrgBr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(_12_DftrNtRtrSup1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_13_BwtSuplBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_11_BwtNtRtrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_10_DftrNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_09_BwtNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_08_EditDftrPlgn1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_07_BwtPlgnBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_06_DftrNtRtrUsr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_05_BwtNtRtr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_04_DftrNtTukar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_03_BwtNtTukar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(_02_DftrNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(_14_EditDftrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(_01_BwtNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(_00_Tutorial1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_18_StokOpname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_17_RwytBrg1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_16_EditDftrBrg2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(_15_BwtBrgBr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(_12_DftrNtRtrSup1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_13_BwtSuplBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_11_BwtNtRtrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_10_DftrNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_09_BwtNtBl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_08_EditDftrPlgn1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_07_BwtPlgnBr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_06_DftrNtRtrUsr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_05_BwtNtRtr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_04_DftrNtTukar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_03_BwtNtTukar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(_02_DftrNtJual1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(_14_EditDftrSupl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void TB_01_BwtNtJl_jB_01x01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TB_01_BwtNtJl_jB_01x01ActionPerformed
         for (int p=0; p<Number_of_main_panels; p++) {
             Main_Panels[p].setVisible(false);
         }
         this._01_BwtNtJual1.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_TB_01_BwtNtJl_jB_01x01ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         for (int p=0; p<Number_of_main_panels; p++) {
@@ -665,12 +819,12 @@ public class Main_Frame extends javax.swing.JFrame {
         this._07_BwtPlgnBr1.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void TB_02_jB_DftrNtJl_01x01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TB_02_jB_DftrNtJl_01x01ActionPerformed
         for (int p=0; p<Number_of_main_panels; p++) {
             Main_Panels[p].setVisible(false);
         }
         this._02_DftrNtJual1.setVisible(true);
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_TB_02_jB_DftrNtJl_01x01ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         for (int p=0; p<Number_of_main_panels; p++) {
@@ -807,6 +961,8 @@ public class Main_Frame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton TB_01_BwtNtJl_jB_01x01;
+    private javax.swing.JButton TB_02_jB_DftrNtJl_01x01;
     private prototype._00_Tutorial _00_Tutorial1;
     private prototype._01_BwtNtJual _01_BwtNtJual1;
     private prototype._02_DftrNtJual _02_DftrNtJual1;
@@ -826,7 +982,6 @@ public class Main_Frame extends javax.swing.JFrame {
     private prototype._16_EditDftrBrg _16_EditDftrBrg2;
     private prototype._17_RwytBrg _17_RwytBrg1;
     private prototype._18_StokOpname _18_StokOpname1;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -840,7 +995,6 @@ public class Main_Frame extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;

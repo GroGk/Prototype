@@ -882,11 +882,11 @@ public class StokProgram extends javax.swing.JFrame {
         Baru_jP_SlmtDtg_02.setLayout(Baru_jP_SlmtDtg_02Layout);
         Baru_jP_SlmtDtg_02Layout.setHorizontalGroup(
             Baru_jP_SlmtDtg_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 592, Short.MAX_VALUE)
+            .addGap(0, 596, Short.MAX_VALUE)
         );
         Baru_jP_SlmtDtg_02Layout.setVerticalGroup(
             Baru_jP_SlmtDtg_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 501, Short.MAX_VALUE)
+            .addGap(0, 504, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout Baru_jPLayout = new javax.swing.GroupLayout(Baru_jP);
@@ -952,11 +952,11 @@ public class StokProgram extends javax.swing.JFrame {
         Balik_jP_SlmtDtgKbl_02.setLayout(Balik_jP_SlmtDtgKbl_02Layout);
         Balik_jP_SlmtDtgKbl_02Layout.setHorizontalGroup(
             Balik_jP_SlmtDtgKbl_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 592, Short.MAX_VALUE)
+            .addGap(0, 596, Short.MAX_VALUE)
         );
         Balik_jP_SlmtDtgKbl_02Layout.setVerticalGroup(
             Balik_jP_SlmtDtgKbl_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 501, Short.MAX_VALUE)
+            .addGap(0, 504, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout Balik_jPLayout = new javax.swing.GroupLayout(Balik_jP);
@@ -1300,24 +1300,26 @@ public class StokProgram extends javax.swing.JFrame {
             }
         });
         _01_jScP_Data_02x04.setViewportView(_01_jTb_Data_02x04);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(0).setMinWidth(25);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(0).setPreferredWidth(25);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(0).setMaxWidth(25);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(1).setMinWidth(220);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(1).setPreferredWidth(220);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(1).setMaxWidth(440);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(2).setMinWidth(110);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(2).setPreferredWidth(110);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(2).setMaxWidth(220);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(3).setMinWidth(65);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(3).setPreferredWidth(65);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(3).setMaxWidth(130);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(4).setMinWidth(40);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(4).setPreferredWidth(40);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(4).setMaxWidth(80);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(5).setMinWidth(80);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(5).setPreferredWidth(80);
-        _01_jTb_Data_02x04.getColumnModel().getColumn(5).setMaxWidth(160);
+        if (_01_jTb_Data_02x04.getColumnModel().getColumnCount() > 0) {
+            _01_jTb_Data_02x04.getColumnModel().getColumn(0).setMinWidth(25);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(0).setPreferredWidth(25);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(0).setMaxWidth(25);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(1).setMinWidth(220);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(1).setPreferredWidth(220);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(1).setMaxWidth(440);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(2).setMinWidth(110);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(2).setPreferredWidth(110);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(2).setMaxWidth(220);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(3).setMinWidth(65);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(3).setPreferredWidth(65);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(3).setMaxWidth(130);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(4).setMinWidth(40);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(4).setPreferredWidth(40);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(4).setMaxWidth(80);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(5).setMinWidth(80);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(5).setPreferredWidth(80);
+            _01_jTb_Data_02x04.getColumnModel().getColumn(5).setMaxWidth(160);
+        }
 
         javax.swing.GroupLayout _01_jP_Data_02x04Layout = new javax.swing.GroupLayout(_01_jP_Data_02x04);
         _01_jP_Data_02x04.setLayout(_01_jP_Data_02x04Layout);
@@ -2052,24 +2054,26 @@ public class StokProgram extends javax.swing.JFrame {
         ));
         _02_jTb_DtCr_02x03.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         _02_jScP_DtCr_02x03.setViewportView(_02_jTb_DtCr_02x03);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(70);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(70);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(140);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(80);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(80);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(160);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMinWidth(140);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(140);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMaxWidth(280);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(40);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(40);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(80);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(110);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(110);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(220);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMinWidth(220);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(220);
-        _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMaxWidth(440);
+        if (_02_jTb_DtCr_02x03.getColumnModel().getColumnCount() > 0) {
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(70);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(70);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(140);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(80);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(80);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(160);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMinWidth(140);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(140);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMaxWidth(280);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(40);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(40);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(80);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(110);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(110);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(220);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMinWidth(220);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(220);
+            _02_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMaxWidth(440);
+        }
 
         javax.swing.GroupLayout _02_jP_DtCr_02x03Layout = new javax.swing.GroupLayout(_02_jP_DtCr_02x03);
         _02_jP_DtCr_02x03.setLayout(_02_jP_DtCr_02x03Layout);
@@ -2559,33 +2563,35 @@ public class StokProgram extends javax.swing.JFrame {
         _03_jTb_DtRtr_02x03x01x04.setMinimumSize(new java.awt.Dimension(558, 122));
         _03_jTb_DtRtr_02x03x01x04.setPreferredSize(new java.awt.Dimension(558, 122));
         _03_jScP_DtRtr_02x03x01x04.setViewportView(_03_jTb_DtRtr_02x03x01x04);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setMinWidth(25);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setPreferredWidth(25);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setMaxWidth(25);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setMinWidth(100);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setPreferredWidth(100);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setMaxWidth(200);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setMinWidth(110);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setPreferredWidth(110);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setMaxWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setMinWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setPreferredWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setMaxWidth(440);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setMinWidth(110);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setPreferredWidth(110);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setMaxWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setMinWidth(65);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setPreferredWidth(65);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setMaxWidth(130);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setMinWidth(40);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setPreferredWidth(40);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setMaxWidth(80);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setMinWidth(80);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setPreferredWidth(80);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setMaxWidth(160);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setMinWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setPreferredWidth(220);
-        _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setMaxWidth(440);
+        if (_03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumnCount() > 0) {
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setMinWidth(25);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setPreferredWidth(25);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(0).setMaxWidth(25);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setMinWidth(100);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setPreferredWidth(100);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(1).setMaxWidth(200);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setMinWidth(110);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setPreferredWidth(110);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(2).setMaxWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setMinWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setPreferredWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(3).setMaxWidth(440);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setMinWidth(110);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setPreferredWidth(110);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(4).setMaxWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setMinWidth(65);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setPreferredWidth(65);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(5).setMaxWidth(130);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setMinWidth(40);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setPreferredWidth(40);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(6).setMaxWidth(80);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setMinWidth(80);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setPreferredWidth(80);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(7).setMaxWidth(160);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setMinWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setPreferredWidth(220);
+            _03_jTb_DtRtr_02x03x01x04.getColumnModel().getColumn(8).setMaxWidth(440);
+        }
 
         javax.swing.GroupLayout _03_jP_DtRtr_02x03x01x04Layout = new javax.swing.GroupLayout(_03_jP_DtRtr_02x03x01x04);
         _03_jP_DtRtr_02x03x01x04.setLayout(_03_jP_DtRtr_02x03x01x04Layout);
@@ -2812,21 +2818,23 @@ public class StokProgram extends javax.swing.JFrame {
         _03_jTb_DtInv_02x03x03.setMinimumSize(new java.awt.Dimension(558, 122));
         _03_jTb_DtInv_02x03x03.setPreferredSize(new java.awt.Dimension(558, 122));
         _03_jScP_DtInv_02x03x03.setViewportView(_03_jTb_DtInv_02x03x03);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setMinWidth(220);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setPreferredWidth(220);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setMaxWidth(440);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setMinWidth(110);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setPreferredWidth(110);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setMaxWidth(220);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setMinWidth(65);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setPreferredWidth(65);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setMaxWidth(130);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setMinWidth(40);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setPreferredWidth(40);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setMaxWidth(80);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setMinWidth(80);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setPreferredWidth(80);
-        _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setMaxWidth(160);
+        if (_03_jTb_DtInv_02x03x03.getColumnModel().getColumnCount() > 0) {
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setMinWidth(220);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setPreferredWidth(220);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(0).setMaxWidth(440);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setMinWidth(110);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setPreferredWidth(110);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(1).setMaxWidth(220);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setMinWidth(65);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setPreferredWidth(65);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(2).setMaxWidth(130);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setMinWidth(40);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setPreferredWidth(40);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(3).setMaxWidth(80);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setMinWidth(80);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setPreferredWidth(80);
+            _03_jTb_DtInv_02x03x03.getColumnModel().getColumn(4).setMaxWidth(160);
+        }
 
         javax.swing.GroupLayout _03_jP_DtInv_02x03x03Layout = new javax.swing.GroupLayout(_03_jP_DtInv_02x03x03);
         _03_jP_DtInv_02x03x03.setLayout(_03_jP_DtInv_02x03x03Layout);
@@ -3613,27 +3621,29 @@ public class StokProgram extends javax.swing.JFrame {
         ));
         _04_jTb_DtCr_02x03.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         _04_jScP_DtCr_02x03.setViewportView(_04_jTb_DtCr_02x03);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMinWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMaxWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(180);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(180);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(360);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(40);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(40);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(80);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMinWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(110);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMaxWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setMinWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setPreferredWidth(220);
-        _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setMaxWidth(440);
+        if (_04_jTb_DtCr_02x03.getColumnModel().getColumnCount() > 0) {
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMinWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMaxWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(180);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(180);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(360);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(40);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(40);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(80);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMinWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(110);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMaxWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setMinWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setPreferredWidth(220);
+            _04_jTb_DtCr_02x03.getColumnModel().getColumn(6).setMaxWidth(440);
+        }
 
         javax.swing.GroupLayout _04_jP_DtCr_02x03Layout = new javax.swing.GroupLayout(_04_jP_DtCr_02x03);
         _04_jP_DtCr_02x03.setLayout(_04_jP_DtCr_02x03Layout);
@@ -4023,33 +4033,35 @@ public class StokProgram extends javax.swing.JFrame {
         ));
         _05_jTb_Data_02x05.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         _05_jScP_Data_02x05.setViewportView(_05_jTb_Data_02x05);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(0).setMinWidth(25);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(0).setPreferredWidth(25);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(0).setMaxWidth(25);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(1).setMinWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(1).setPreferredWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(1).setMaxWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(2).setMinWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(2).setPreferredWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(2).setMaxWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(3).setMinWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(3).setPreferredWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(3).setMaxWidth(440);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(4).setMinWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(4).setPreferredWidth(110);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(4).setMaxWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(5).setMinWidth(65);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(5).setPreferredWidth(65);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(5).setMaxWidth(130);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(6).setMinWidth(40);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(6).setPreferredWidth(40);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(6).setMaxWidth(80);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(7).setMinWidth(80);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(7).setPreferredWidth(80);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(7).setMaxWidth(160);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(8).setMinWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(8).setPreferredWidth(220);
-        _05_jTb_Data_02x05.getColumnModel().getColumn(8).setMaxWidth(440);
+        if (_05_jTb_Data_02x05.getColumnModel().getColumnCount() > 0) {
+            _05_jTb_Data_02x05.getColumnModel().getColumn(0).setMinWidth(25);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(0).setPreferredWidth(25);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(0).setMaxWidth(25);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(1).setMinWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(1).setPreferredWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(1).setMaxWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(2).setMinWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(2).setPreferredWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(2).setMaxWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(3).setMinWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(3).setPreferredWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(3).setMaxWidth(440);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(4).setMinWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(4).setPreferredWidth(110);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(4).setMaxWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(5).setMinWidth(65);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(5).setPreferredWidth(65);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(5).setMaxWidth(130);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(6).setMinWidth(40);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(6).setPreferredWidth(40);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(6).setMaxWidth(80);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(7).setMinWidth(80);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(7).setPreferredWidth(80);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(7).setMaxWidth(160);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(8).setMinWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(8).setPreferredWidth(220);
+            _05_jTb_Data_02x05.getColumnModel().getColumn(8).setMaxWidth(440);
+        }
 
         javax.swing.GroupLayout _05_jP_Data_02x05Layout = new javax.swing.GroupLayout(_05_jP_Data_02x05);
         _05_jP_Data_02x05.setLayout(_05_jP_Data_02x05Layout);
@@ -4183,7 +4195,7 @@ public class StokProgram extends javax.swing.JFrame {
                         .addComponent(_05_jP_Keterangan_02x06, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, 0)
                         .addComponent(_05_jP_InputXtra_02x07, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
         );
         _05_jP_BtNtRtr_02Layout.setVerticalGroup(
             _05_jP_BtNtRtr_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4766,24 +4778,24 @@ public class StokProgram extends javax.swing.JFrame {
         ));
         _06_jTb_DtCr_02x03.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         _06_jScP_DtCr_02x03.setViewportView(_06_jTb_DtCr_02x03);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(220);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(220);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMinWidth(150);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(150);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(2).setMaxWidth(300);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(40);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(40);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(80);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(110);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(220);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMinWidth(220);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(220);
-        _06_jTb_DtCr_02x03.getColumnModel().getColumn(5).setMaxWidth(440);
+        if (_06_jTb_DtCr_02x03.getColumnModel().getColumnCount() > 0) {
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMinWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setPreferredWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(0).setMaxWidth(220);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMinWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setPreferredWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(1).setMaxWidth(220);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(2).setResizable(false);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(2).setPreferredWidth(150);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMinWidth(40);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setPreferredWidth(40);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(3).setMaxWidth(80);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMinWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setPreferredWidth(110);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(4).setMaxWidth(220);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(5).setResizable(false);
+            _06_jTb_DtCr_02x03.getColumnModel().getColumn(5).setPreferredWidth(220);
+        }
 
         javax.swing.GroupLayout _06_jP_DtCr_02x03Layout = new javax.swing.GroupLayout(_06_jP_DtCr_02x03);
         _06_jP_DtCr_02x03.setLayout(_06_jP_DtCr_02x03Layout);
@@ -4805,7 +4817,7 @@ public class StokProgram extends javax.swing.JFrame {
                     .addComponent(_06_jP_KtrgnCr_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(_06_jP_OpsiCr_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(_06_jP_DtCr_02x03, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 12, Short.MAX_VALUE))
+                .addGap(0, 16, Short.MAX_VALUE))
         );
         _06_jP_DftrNtRtr_02Layout.setVerticalGroup(
             _06_jP_DftrNtRtr_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5641,24 +5653,26 @@ public class StokProgram extends javax.swing.JFrame {
         ));
         _08_jTb_DtCr_02x02.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         _08_jScP_DtCr_02x02.setViewportView(_08_jTb_DtCr_02x02);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setMinWidth(200);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setPreferredWidth(200);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setMaxWidth(400);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setMinWidth(120);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setPreferredWidth(120);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setMaxWidth(240);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setMinWidth(150);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setPreferredWidth(150);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setMaxWidth(300);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setMinWidth(200);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setPreferredWidth(200);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setMaxWidth(400);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setMinWidth(180);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setPreferredWidth(180);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setMaxWidth(360);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setMinWidth(110);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setPreferredWidth(110);
-        _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setMaxWidth(220);
+        if (_08_jTb_DtCr_02x02.getColumnModel().getColumnCount() > 0) {
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setMinWidth(200);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setPreferredWidth(200);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(0).setMaxWidth(400);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setMinWidth(120);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setPreferredWidth(120);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(1).setMaxWidth(240);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setMinWidth(150);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setPreferredWidth(150);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(2).setMaxWidth(300);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setMinWidth(200);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setPreferredWidth(200);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(3).setMaxWidth(400);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setMinWidth(180);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setPreferredWidth(180);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(4).setMaxWidth(360);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setMinWidth(110);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setPreferredWidth(110);
+            _08_jTb_DtCr_02x02.getColumnModel().getColumn(5).setMaxWidth(220);
+        }
 
         javax.swing.GroupLayout _08_jP_DtCr_02x02Layout = new javax.swing.GroupLayout(_08_jP_DtCr_02x02);
         _08_jP_DtCr_02x02.setLayout(_08_jP_DtCr_02x02Layout);
@@ -5679,7 +5693,7 @@ public class StokProgram extends javax.swing.JFrame {
                 .addGroup(_08_jP_Dftrplgn_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(_08_jP_OpsiCr_02x01, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(_08_jP_DtCr_02x02, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
         );
         _08_jP_Dftrplgn_02Layout.setVerticalGroup(
             _08_jP_Dftrplgn_02Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
